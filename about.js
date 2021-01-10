@@ -5,7 +5,7 @@ var nameEN = 'Tamas Fulop';
 var professionHU = 'Junior Szoftverfejlesztő';
 var professionEN = 'Junior Software Developer';
 
-var aboutHU = "Rólam";
+var aboutHU = "Magamról";
 var aboutEN = "About Me";
 var faqHU = 'Kérdések és Válaszok';
 var faqEN = 'Questions and Answers';
