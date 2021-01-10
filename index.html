@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156881962-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-156881962-1');
+    </script>
+    <title id="tx_title">Tamas Fulop Software Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/code.png">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mulish&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+
+      <nav class="navbar fixed-top navbar-never-expand navbar-light">
+        <div class="fluid-container">
+          <button class="navbar-toggler menu_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav_link_background">
+              <a class="nav-link" href="#"><button onclick="languageChangeEN()"><img src="assets/UK48.png" alt="UK Kingdom Flag"></button><button onclick="languageChangeHU()"><img src="assets/Hun48.png" alt="HUN Flag"></button></a>
+              <a class="nav-link" href="#about" id="btn_about">About Me</a>
+              <a class="nav-link" href="#faq" id="btn_faq">Question and Answers</a>
+              <a class="nav-link" href="#techno" id="btn_techno">The technologies I use</a>
+              <a class="nav-link" href="#project" id="btn_project">Own Project</a>
+              <a class="nav-link" href="#contact" id="btn_contact">Contacts</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <header class="cover">
+        <div class="main_title_wrapper">
+          <div class="main_title">
+            <h1 id="tx_name"></h1>
+            <span id="tx_profession"></span>
+          </div>
+        </div>
+      </header>
+
+    <main>
+
+      <section class="fluid-container" id="about">
+        <h2 id="h_about">About Me</h2>
+        <div class="row justify-content-md-center">
+          <div class="col-md-8">
+            <p id="about_me"></p>
+          </div>
+        </div>
+      </section>
+
+      <div class="gap_wrapper">
+        <div class="gap">
+        </div>
+      </div>
+
+      <section class="fluid-container" id="faq">
+        <h2 id="h_faq"></h2>
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-6 question-group">
+                <p class="question" id="tx_q1"></p>
+                <p class="answer" id="tx_a1"></p>
+                <p class="question" id="tx_q2"></p>
+                <p class="answer" id="tx_a2"></p>
+              </div>
+              <div class="col-md-6 question-group">
+                <p class="question" id="tx_q3"></p>
+                <p class="answer" id="tx_a3"></p>
+                <p class="question" id="tx_q4"></p>
+                <p class="answer" id="tx_a4"></p>
+                <p class="question" id="tx_q5"></p>
+                <p class="answer" id="tx_a5"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="gap_wrapper">
+        <div class="gap">
+        </div>
+      </div>
+
+      <section class="fluid-container" id="techno">
+        <h2 id="h_techno">Technologies used</h2>
+        <div class="row">
+          <div class="col-md-3 blurb">
+            <h3 id="techno_development">Development</h3>
+            <i class="fas fa-desktop fa-7x"></i>
+            <div class="techno_list">
+              <li>Java SE 8</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Swing</li>
+              <li>JUnit</li>
+            </div>
+          </div>
+          <div class="col-md-3 blurb">
+            <h3 id="techno_other">Other Technogies</h3>
+            <i class="fas fa-database fa-7x"></i>
+            <div class="techno_list">
+              <li>MySQL</li>
+              <li>JPA/Hibernate</li>
+              <li>Maven</li>
+              <li>Git</li>
+              <li>Tomcat</li>
+              <li>Linux Server</li>
+            </div>
+          </div>
+          <div class="col-md-3 blurb">
+            <h3 id="techno_framework">Framework</h3>
+            <i class="fas fa-server fa-7x"></i>
+            <div class="techno_list">
+              <li>Spring Boot</li>
+              <li>Spring MVC</li>
+              <li>Spring Data</li>
+              <li>Thymeleaf</li>
+            </div>
+          </div>
+          <div class="col-md-3 blurb">
+            <h3 id="techno_development_tools">Development Tools</h3>
+            <i class="fas fa-keyboard fa-7x"></i>
+            <div class="techno_list">
+              <li>Eclipse</li>
+              <li>Spring Tool Suite</li>
+              <li>NetBeans</li>
+              <li>Visual Studio Code</li>
+              <li>IntelliJ Idea</li>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      <div class="gap_wrapper">
+        <div class="gap">
+        </div>
+      </div>
+
+      <section class="fluid-container" id="project">
+        <h2 id="h_project">Own Project</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div id="project_1"></div>
+            <div>
+              <img src="assets/steelSlittingCalculator.png" alt="Steel Slitting Calculator">
+            </div>
+            <div id="project_caption"></div>
+            <div id="project_2"></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="gap_wrapper">
+        <div class="gap">
+        </div>
+      </div>
+
+      <section class="fluid-container" id="contact">
+        <h2 id="h_contact"></h2>
+        <div class="row justify-content-center">
+          <div class="col-auto">
+            <div id="p_contact">Contact</div>
+          </div>
+          <div id="icons">
+            <li id="i_github"></li>
+            <li id="i_linkedin"></li>
+            <li id="i_facebook"></li>
+            <li id="i_email"></li>
+            <li id="i_mobile"></li>
+          </div>
+        </div>
+      </section>
+
+    </main>
+    
+    <footer>
+      <div class="footer_wrapper">
+        <p id="p_footer"></p><span></span>
+    </div>
+    </footer>
+
+    <div class="gap_wrapper">
+      <div id="last_gap">
+      </div>
+    </div>
+
+    <script src="about.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
