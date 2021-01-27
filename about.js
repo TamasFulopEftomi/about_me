@@ -82,8 +82,11 @@ var techno_development_toolsEN = "Development Tools";
 
 var project_1HU = '<h5>A szoftver keletkezése:</h5><br>'
     + 'Az egyik korábbi munkahelyemen felmerült igény megoldásaként készítettem 2010.év környékén az alábbi kalkulátort, akkor még excel táblázatkezelőben valósítottam meg azt. Az asztali'
-    + ' alkalmazás Java implementációját a kép alatti hivatkozásban éred el. <br><br>A programhoz felhasznált technológiák: Java SE, Swing, Maven.<br><br>'
-    + '<h5>A szoftver motivációja:</h5><br>'
+    + ' alkalmazás Java implementációját a kép alatti hivatkozásban éred el. <br><br>A programhoz felhasznált technológiák: Java SE, JUnit, Swing, Maven.<br><br>';
+var project_1EN = '<h5>The origin of the software:</h5><br>'
+    + 'I made the following calculator around 2010 as a solution to the demand of one of my previous job. I created this tool in excel spreadsheet that time. '
+    + 'You can access the Java implementation of this desktop application via the link below the image.<br><br>Used technologies for the application: Java SE, JUnit, Swing, Maven.<br><br>';
+var project_2HU = '<h5>A szoftver motivációja:</h5><br>'
     + 'Az acélgyártás egyik végterméke a hengerelt lemez, melyet lemeztábla, szélestekercs és csík formájában is forgalmaznak továbbfeldolgozásra a feldolgozó iparnak. Az alkalmazás a hidegen '
     + 'és melegen hengerelt acéltekercs(ek) hatékony csík képzését támogatja, előtérebe helyezve a legkevesebb hulladék és a legtöbb készáru keletkezését.<br> <br>'
     + 'Állványméret kalkulációt lehet végezni a következő paraméterek figyelembe vételével:<br>'
@@ -108,10 +111,7 @@ var project_1HU = '<h5>A szoftver keletkezése:</h5><br>'
     + '- Belső átmérő nagysága. (500mm, 508mm, 600mm, 610mm)<br>'
     + '- Azonos szélességű csíkok száma. (0 – 15db)<br>'
     + '- Csík(ok) szélessége. (19 – 1530mm)';
-var project_1EN = '<h5>The origin of the software:</h5><br>'
-    + 'I made the following calculator around 2010 as a solution to the demand of one of my previous job. I created this tool in excel spreadsheet that time. '
-    + 'You can access the Java implementation of this desktop application via the link below the image.<br><br>Used technologies for the application: Java SE, Swing, Maven.<br><br>'
-    + '<h5>The motivation of the software:</h5><br>'
+var project_2EN = '<h5>The motivation of the software:</h5><br>'
     + 'One of the end products of steel production is rolled sheet, which is also sold in the form of sheet metal, wide coils and strips for further processing to the processing industry. '
     + 'The application facilitates the optimization of strip cutting, for cold and hot rolled steel coil(s) with the aim of maximising finished good and reducing waste.<br><br>'
     + 'Based on the following inputs/parameters the program will produce the optimal cutting pattern:<br>'
@@ -136,12 +136,14 @@ var project_1EN = '<h5>The origin of the software:</h5><br>'
     + '- Internal diameter size. (500mm, 508mm, 600mm, 610mm)<br>'
     + '- Number of stripes of the same width. (0 – 15pcs)<br>'
     + '- Width of stripes. (19 – 1530mm)';
+var project_buttonHU = 'Kattintson ide a részletekért.';
+var project_buttonEN = 'Click here for details.';
 var project_captionHU = 'Acélszalag hasítóállvány méretszerkesztő';
 var project_captionEN = 'Steel Slitting Stand Dimension Calculator';
-var project_2HU = 'Az acélszalag hasítóállvány méretszerkesztőt és annak kódjait <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank"><strong>'
+var project_3HU = 'Az acélszalag hasítóállvány méretszerkesztőt és annak kódjait <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank"><strong>'
     + 'ide kattintva</strong ></a > éred el.<br><br>Ezen bemutatkozó honlapom kódjait pedig <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank"><strong>'
     + 'ide kattintva</strong ></a > éred el.';
-var project_2EN = 'Steel Slitting Stand Dimension Calculator and its codes you can find <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank">'
+var project_3EN = 'Steel Slitting Stand Dimension Calculator and its codes you can find <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank">'
     + '<strong>click here</strong></a>.<br><br>Codes of this introduction webpage you can find <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank">'
     + '<strong>click here</strong ></a>.';
 
@@ -205,8 +207,10 @@ function languageChangeHU() {
     document.getElementById('techno_development_tools').innerHTML = techno_development_toolsHU;
 
     document.getElementById('project_1').innerHTML = project_1HU;
-    document.getElementById('project_caption').innerHTML = project_captionHU;
     document.getElementById('project_2').innerHTML = project_2HU;
+    document.getElementById('project_button').innerHTML = project_buttonHU;
+    document.getElementById('project_caption').innerHTML = project_captionHU;
+    document.getElementById('project_3').innerHTML = project_3HU;
 
     document.getElementById('p_contact').innerHTML = contactTextHU;
     document.getElementById('p_footer').innerHTML = footerTextHU;
@@ -253,8 +257,10 @@ function languageChangeEN() {
     document.getElementById('techno_development_tools').innerHTML = techno_development_toolsEN;
 
     document.getElementById('project_1').innerHTML = project_1EN;
-    document.getElementById('project_caption').innerHTML = project_captionEN;
     document.getElementById('project_2').innerHTML = project_2EN;
+    document.getElementById('project_button').innerHTML = project_buttonEN;
+    document.getElementById('project_caption').innerHTML = project_captionEN;
+    document.getElementById('project_3').innerHTML = project_3EN;
 
     document.getElementById('p_contact').innerHTML = contactTextEN;
     document.getElementById('p_footer').innerHTML = footerTextEN;
@@ -300,8 +306,10 @@ document.getElementById('techno_framework').innerHTML = techno_frameworkEN;
 document.getElementById('techno_development_tools').innerHTML = techno_development_toolsEN;
 
 document.getElementById('project_1').innerHTML = project_1EN;
-document.getElementById('project_caption').innerHTML = project_captionEN;
 document.getElementById('project_2').innerHTML = project_2EN;
+document.getElementById('project_button').innerHTML = project_buttonEN;
+document.getElementById('project_caption').innerHTML = project_captionEN;
+document.getElementById('project_3').innerHTML = project_3EN;
 
 document.getElementById('p_contact').innerHTML = contactTextEN;
 document.getElementById('p_footer').innerHTML = footerTextEN;

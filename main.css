@@ -257,7 +257,7 @@ button {
   width: 100%;
 }
 
-#project_1, #project_2 {
+#project_1, #project_3 {
   text-align: justify;
 }
 
@@ -266,8 +266,16 @@ button {
   font-size: .8rem;
 }
 
-#project_2 {
+#project_3 {
   margin-top: 1.5rem;
+}
+
+.collapse_link_background {
+  border-radius: 0.25rem;
+}
+
+.collapse_button:focus {
+  box-shadow: none;
 }
 
 @media (min-width: 992px) {
