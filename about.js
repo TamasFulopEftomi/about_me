@@ -136,8 +136,8 @@ var project_2EN = '<h5>The motivation of the software:</h5><br>'
     + '- Internal diameter size. (500mm, 508mm, 600mm, 610mm)<br>'
     + '- Number of stripes of the same width. (0 – 15pcs)<br>'
     + '- Width of stripes. (19 – 1530mm)';
-var project_buttonHU = 'Kattintson ide a részletekért.';
-var project_buttonEN = 'Click here for details.';
+var project_buttonHU = 'Kattints ide a részletekért!';
+var project_buttonEN = 'Click here for details!';
 var project_captionHU = 'Acélszalag hasítóállvány méretszerkesztő';
 var project_captionEN = 'Steel Slitting Stand Dimension Calculator';
 var project_3HU = 'Az acélszalag hasítóállvány méretszerkesztőt és annak kódjait <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank"><strong>'
