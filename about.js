@@ -9,10 +9,12 @@ var aboutHU = "Magamról";
 var aboutEN = "About Me";
 var faqHU = 'Kérdések és Válaszok';
 var faqEN = 'Questions and Answers';
-var technoHU = 'Használt technológiák';
+var technoHU = 'Használt Technológiák';
 var technoEN = 'Technologies Used';
-var projectHU = 'Saját Projekt';
-var projectEN = 'Own Project';
+var swing_projectHU = 'Swing Desktop Projekt';
+var swing_projectEN = 'Swing Desktop Project';
+var spring_projectHU = 'Spring Boot Web Projekt';
+var spring_projectEN = 'Spring Boot Web Project';
 var contactHU = 'Kapcsolatok';
 var contactEN = 'Contacts';
 
@@ -20,7 +22,7 @@ var about_meHU = 'Az elmúlt 20 évben az ellátási láncban dolgoztam, legink�
     + 'hogy szakmailag előremutató és pontos munkát végezzek, barátságos megközelítéssel. Sok kódtapasztalattal és képzéssel felépített számítógépes ismeretettel rendelkezem, hogy '
     + 'alkalmazkodni tudjak a különböző munkakörnyezetekhez. Mindig proaktív vagyok, szívesen fejlesztem magam új területeken. A megkezdett karrierutam a jövőben a szoftverfejlesztés '
     + 'területén fogom folytatni.';
-var about_meEN = 'In the previous 20 years I worked in Supply-chain sector, mostly in Production Planner role. Currently I am a graduate job seeker standing before career path changing. '
+var about_meEN = 'In the previous 20 years I worked in Supply Chain sector, mostly in Production Planner role. Currently I am a graduate job seeker standing before career path changing. '
     + 'As a team player I strive to produce professional and accurate work with a friendly approach. Computer literate with a great deal of code experience and training to adapt to any work '
     + 'environment. I am always proactive, keen to develop new areas. I am particularly keen on working in software development area in the future.';
 
@@ -73,22 +75,22 @@ var a5EN = 'I also speak and write the language in a mid level. I have also work
 
 var techno_developmentHU = "Fejlesztés";
 var techno_developmentEN = "Development";
-var techno_otherHU = "Egyéb technológiák";
+var techno_otherHU = "Egyéb Technológiák";
 var techno_otherEN = "Other Technologies";
 var techno_frameworkHU = "Keretrendszer";
 var techno_frameworkEN = "Framework";
-var techno_development_toolsHU = "Fejlesztő eszközök";
+var techno_development_toolsHU = "Fejlesztő Eszközök";
 var techno_development_toolsEN = "Development Tools";
 
-var project_1HU = '<h5>A szoftver keletkezése:</h5><br>'
-    + 'Az egyik korábbi munkahelyemen felmerült igény megoldásaként készítettem 2010.év környékén az alábbi kalkulátort, akkor még excel táblázatkezelőben valósítottam meg azt. Az asztali'
-    + ' alkalmazás Java implementációját a kép alatti hivatkozásban éred el. <br><br>A programhoz felhasznált technológiák: Java SE, JUnit, Swing, Maven.<br><br>';
-var project_1EN = '<h5>The origin of the software:</h5><br>'
-    + 'I made the following calculator around 2010 as a solution to the demand of one of my previous job. I created this tool in excel spreadsheet that time. '
-    + 'You can access the Java implementation of this desktop application via the link below the image.<br><br>Used technologies for the application: Java SE, JUnit, Swing, Maven.<br><br>';
-var project_2HU = '<h5>A szoftver motivációja:</h5><br>'
+var swing_project_1HU = 'Az egyik korábbi munkahelyemen felmerült igény megoldásaként készítettem 2010.év környékén az alábbi kalkulátort, akkor még excel táblázatkezelőben valósítottam meg '
+    + 'az eszközt.<br><br>A programhoz felhasznált technológiák: <strong>Java 8, JUnit, Swing, Maven.</strong><br><br>A kétnyelvű asztali alkalmazás Java implementációját a kép alatti '
+    + 'hivatkozásban éred el.<br><br>';
+var swing_project_1EN = 'I made the following calculator around 2010 as a solution to the demand of one of my previous job. I created this tool in excel spreadsheet that time.<br><br>Used '
+    + 'technologies for the application: <strong>Java 8, JUnit, Swing, Maven.</strong > <br><br>You can access the Java implementation of this bilingual desktop application via the link below '
+    + 'the image.<br><br>';
+var swing_project_2HU = '<h4>A szoftver motivációja:</h4><br>'
     + 'Az acélgyártás egyik végterméke a hengerelt lemez, melyet lemeztábla, szélestekercs és csík formájában is forgalmaznak továbbfeldolgozásra a feldolgozó iparnak. Az alkalmazás a hidegen '
-    + 'és melegen hengerelt acéltekercs(ek) hatékony csík képzését támogatja, előtérebe helyezve a legkevesebb hulladék és a legtöbb készáru keletkezését.<br> <br>'
+    + 'és melegen hengerelt acéltekercs(ek) hatékony csík képzését támogatja, előtérebe helyezve a legkevesebb hulladék és a legtöbb készáru keletkezését.<br><br>'
     + 'Állványméret kalkulációt lehet végezni a következő paraméterek figyelembe vételével:<br>'
     + '- Egy vagy több darab tekercs feldolozása azonos állványmérettel.<br>'
     + '- Öt különböző csík szélesség együtt gyártása.<br>'
@@ -100,18 +102,8 @@ var project_2HU = '<h5>A szoftver motivációja:</h5><br>'
     + '- Csík húsvatagságának meghatározása, különböző szedések alapján.<br>'
     + '- Felületi- és anyaghiba arány figyelembe vétele.<br>'
     + '- Keletkező hulladék mennyiség meghatározása.<br>'
-    + '- A megfelelő állványméret kialakításához a program figyelmeztető üzeneteket ad.<br><br>'
-    + 'Adatok felvitele:<br>'
-    + '- Alapanyag szélesség: a feldolgozandó alapanyag szélessége. (19mm – 1550mm)<br>'
-    + '- Kalkuláció alapját képező tekercsek száma. (1db – 99db)<br>'
-    + '- A tekercs vagy tekercsek össztömege. (0,1t – 999t)<br>'
-    + '- Szélhulladék minimuma. (0 – 5mm)<br>'
-    + '- Szélhulladék maximuma. (6 – 60mm)<br>'
-    + '- Betét aránya. (Alapanyaghibák és felületi hibák előfordulási aránya a tekercs(ek)ben.) (0 – 20%)<br>'
-    + '- Belső átmérő nagysága. (500mm, 508mm, 600mm, 610mm)<br>'
-    + '- Azonos szélességű csíkok száma. (0 – 15db)<br>'
-    + '- Csík(ok) szélessége. (19 – 1530mm)';
-var project_2EN = '<h5>The motivation of the software:</h5><br>'
+    + '- A megfelelő állványméret kialakításához a program figyelmeztető üzeneteket ad.';
+var swing_project_2EN = '<h4>The motivation of the software:</h4><br>'
     + 'One of the end products of steel production is rolled sheet, which is also sold in the form of sheet metal, wide coils and strips for further processing to the processing industry. '
     + 'The application facilitates the optimization of strip cutting, for cold and hot rolled steel coil(s) with the aim of maximising finished good and reducing waste.<br><br>'
     + 'Based on the following inputs/parameters the program will produce the optimal cutting pattern:<br>'
@@ -125,25 +117,56 @@ var project_2EN = '<h5>The motivation of the software:</h5><br>'
     + '- Determination of the body thickness of the strip related to the size and number of sheets required.<br>'
     + '- Calculates losses taking into account  surface and material defect rates.<br>'
     + '- Determination of the amount of waste generated.<br>'
-    + '- The software issues warning messages to create the correct slitting dimensions.<br><br>'
-    + 'Entry of data:<br>'
-    + '- Raw material width: the width of the raw material to be processed. (19mm – 1550mm)<br>'
-    + '- Number of rolls on which the calculation is based on. (1pc - 99pcs)<br>'
-    + '- Total weight of coil(s). (0,1t – 999t)<br>'
-    + '- Minimum of edge waste. (0 – 5mm)<br>'
-    + '- Maximum of edge waste. 6 – 60mm)<br>'
-    + '- Percentage loss due to defect. (Incidence of raw material defects and surface defects in the roll.) (0 – 20%)<br>'
-    + '- Internal diameter size. (500mm, 508mm, 600mm, 610mm)<br>'
-    + '- Number of stripes of the same width. (0 – 15pcs)<br>'
-    + '- Width of stripes. (19 – 1530mm)';
-var project_buttonHU = 'Kattints ide a részletekért!';
-var project_buttonEN = 'Click here for details!';
-var project_captionHU = 'Acélszalag hasítóállvány méretszerkesztő';
-var project_captionEN = 'Steel Slitting Stand Dimension Calculator';
-var project_3HU = 'Az acélszalag hasítóállvány méretszerkesztőt és annak kódjait <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank"><strong>'
+    + '- The software issues warning messages to create the correct slitting dimensions.';
+var swing_project_buttonHU = 'Kattints ide a részletekért!';
+var swing_project_buttonEN = 'Click here for details!';
+var swing_project_captionHU = 'Acélszalag hasítóállvány méretszerkesztő';
+var swing_project_captionEN = 'Steel Slitting Stand Dimension Calculator';
+var swing_project_3HU = 'Az acélszalag hasítóállvány méretszerkesztőt és annak kódjait <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank"><strong>'
     + 'ide kattintva</strong ></a > éred el.<br><br>Ezen bemutatkozó honlapom kódjait pedig <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank"><strong>'
     + 'ide kattintva</strong ></a > éred el.';
-var project_3EN = 'Steel Slitting Stand Dimension Calculator and its codes you can find <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank">'
+var swing_project_3EN = 'Steel Slitting Stand Dimension Calculator and its codes you can find <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank">'
+    + '<strong>click here</strong></a>.<br><br>Codes of this introduction webpage you can find <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank">'
+    + '<strong>click here</strong ></a>.';
+
+var spring_project_1HU = 'A korábbi munkahelyeimen tapasztalatot gyüjtöttem acél lemez, acél szerkezetek, fém alkatrészek, kisebb-nagyobb fa szerkezetek, gumi és műanyag alkatrészek és '
+    + 'termékek gépi és kézi feldolgozásának irányításában. Az egyik közös pont a különböző cégben az volt, hogy az elkészült termékeket el kellett szállítani a következő feldolgozóig. '
+    + 'Legtöbbször teherautóval. A korábbi tapasztalataim alapján készítettem az alábbi webes alkalmazást, melynél előtérbe helyeztem a szoftver mobil telefonon, tableten történő '
+    + 'felhasználásának lehetőségét is.<br><br>A programhoz felhasznált technológiák: <strong>Spring Boot, Spring MVC, Spring Data, H2 database, Linux server, Thymeleaf, Bootstrap.</strong>'
+    + '<br><br>Az angol nyelvű web alkalmazás implementációját a kép alatti hivatkozásban éred el.<br><br>';
+    var spring_project_1EN = 'In my previous jobs, I have gained experience in managing the machine and manual processing of steel sheet, steel structures, metal parts, small and large wooden '
+    + 'structures, rubber and plastic parts and products. There was one common point among others between the companies, that the finished products had to be delivered to the next processor '
+    + 'company. Most of the time with truck. Based on my preious experience, I created the following web application in which I also focused on the possibility of using this software on a '
+    + 'mobile phone or on a tablet as well.<br><br>Used technologies for the application: <strong>Spring Boot, Spring MVC, Spring Data, H2 database, Linux server, Thymeleaf, Bootstrap.</strong>'
+    + '<br><br>You can access the implementation of this web application via the link below the image.<br><br>';
+var spring_project_2HU = '<h4>A szoftver motivációja:</h4><br>'
+    + 'A szoftver egy gépalkatrész forgalmazó központi raktárában működik, az ömlesztett alkatrészek területén. Az operátor csomagolási utasításokat és a szállításra érkező teherautók '
+    + 'rakományát tudja megtervezni a szoftverrel. A szállítandó termékek csomagolási utasításai eltérőek. Az egyszerűség kedvéért korlátlan darab számban állnak rendelkezésre a különböző '
+    + 'típusú alkatrészek és göngyölegek a raktárban.<br><br>A rakodási terv elkészíthető a rakodási terület méretére, a különböző tömegekre vonatkozóan, göngyöleg listával a végén.<br><br>'
+    + '<h4>Hogyan működik a program?</h4><br>Három tábla áll rendelkezésre összeállítani vagy ellenőrizni a rakomány tervet: Előírások, Csomagolási utasítás, Göngyöleg lista.'
+    + '<br><br><h6><strong>Előírások menü</strong></h6>Tartalmazza az ömlesztett árukra vonatkozó csomagolási és szállítási szabályokat.<br><br><h6><strong>Csomagolási utasítás menü</strong></h6>'
+    + 'A lista tartalmazza a különböző gépalkatrészekre vonatkozó csomagolási követelményeket göngyölegekre és mennyiségekre vonatkozólag. Továbbá tartalmaz előírásokat a raklapon történő '
+    + 'elhelyezésre is.<br><br><h6><strong>Göngyöleg lista menü</strong></h6>Ez a lista tartalmazza a csomagoláshoz használt különböző típusú göngyölegeket, ezek neveit és tömegadatait.<br><br>'
+    + '<h6><strong>Szállítámy lista készítés menü</strong></h6>A számítási és tervezési folyamat indítható itt el. Ez a menü elvezet a cikkek kiválasztásán keresztül a tervezés eredményéhez.';
+var spring_project_2EN = '<h4>The motivation of the software:</h4><br>'
+    + 'The software operates in the field of bulk goods in the central warehouse of a machine parts distributor. The coordinator can make packing instructions and create the cargo plan of '
+    + 'the trucks arriving for delivery with usage of this software. The items to be shipped have different packaging instructions. For the sake of simplicity unlimited amount of different '
+    + 'types of products and empties are available in the warehouse.<br><br>You can make the cargo plan regarding cargo space, different weigths and detailed list in the end.<br><br>'
+    + '<h4>How the program is working?</h4><br>There are three tables to help you to do the cargo plan or check it what you done: Specifications, Packaging Instruction, Empties list.'
+    + '<br><br><h6><strong>Specifications Menu</strong></h6>It contains regulations for the packaging and loading of bulk goods.<br><br><h6><strong>Packaging Instruction Menu</strong></h6>'
+    + 'This list includes packaging requirements for various machine parts regarding its type of empties and its quantities. In addition it contain requirement to place the goods on a pallet.'
+    + '<br><br><h6><strong>Empties List Menu</strong></h6>This list contains different types of empties and its names and its weights used for packaging.<br><br><h6><strong>Create Cargo List Menu</strong></h6>'
+    + 'You can start the calculation and planning process here. This will drive you over the selection till the end result of calculation.';
+var spring_project_buttonHU = 'Kattints ide a részletekért!';
+var spring_project_buttonEN = 'Click here for details!';
+var spring_project_captionHU = 'Teherautó rakomány tervező';
+var spring_project_captionEN = 'Truck Cargo Planner';
+var spring_project_3HU = 'A Teherautó rakomány tevezőt a weben <a href="http://tcp.eftomi.com" target="_blank"><strong>ide kattintva</strong></a> éred el.<br><br>'
+    + 'A tervező program kódjait <a href="https://github.com/TamasFulopEftomi/tcp" target = "_blank"><strong>'
+    + 'ide kattintva</strong ></a> éred el.<br><br>Ezen bemutatkozó honlapom kódjait pedig <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank"><strong>'
+    + 'ide kattintva</strong ></a> éred el.';
+var spring_project_3EN = 'The Truck Cargo Planner you can find on web <a href="http://tcp.eftomi.com" target="_blank"><strong>click here</strong></a>.<br><br>'
+    + 'Codes of the software you can find <a href="https://github.com/TamasFulopEftomi/tcp" target = "_blank"> '
     + '<strong>click here</strong></a>.<br><br>Codes of this introduction webpage you can find <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank">'
     + '<strong>click here</strong ></a>.';
 
@@ -183,8 +206,12 @@ function languageChangeHU() {
     document.getElementById('h_faq').innerHTML = faqHU;
     document.getElementById('btn_techno').innerHTML = technoHU;
     document.getElementById('h_techno').innerHTML = technoHU;
-    document.getElementById('btn_project').innerHTML = projectHU;
-    document.getElementById('h_project').innerHTML = projectHU;
+    document.getElementById('btn_swing_project').innerHTML = swing_projectHU;
+    document.getElementById('h_swing_project').innerHTML = swing_projectHU;
+    document.getElementById('h2_swing_project').innerHTML = swing_project_captionHU;
+    document.getElementById('btn_spring_project').innerHTML = spring_projectHU;
+    document.getElementById('h_spring_project').innerHTML = spring_projectHU;
+    document.getElementById('h2_spring_project').innerHTML = spring_project_captionHU;
     document.getElementById('btn_contact').innerHTML = contactHU;
     document.getElementById('h_contact').innerHTML = contactHU;
 
@@ -206,11 +233,17 @@ function languageChangeHU() {
     document.getElementById('techno_framework').innerHTML = techno_frameworkHU;
     document.getElementById('techno_development_tools').innerHTML = techno_development_toolsHU;
 
-    document.getElementById('project_1').innerHTML = project_1HU;
-    document.getElementById('project_2').innerHTML = project_2HU;
-    document.getElementById('project_button').innerHTML = project_buttonHU;
-    document.getElementById('project_caption').innerHTML = project_captionHU;
-    document.getElementById('project_3').innerHTML = project_3HU;
+    document.getElementById('swing_project_1').innerHTML = swing_project_1HU;
+    document.getElementById('swing_project_2').innerHTML = swing_project_2HU;
+    document.getElementById('swing_project_button').innerHTML = swing_project_buttonHU;
+    document.getElementById('swing_project_caption').innerHTML = swing_project_captionHU;
+    document.getElementById('swing_project_3').innerHTML = swing_project_3HU;
+
+    document.getElementById('spring_project_1').innerHTML = spring_project_1HU;
+    document.getElementById('spring_project_2').innerHTML = spring_project_2HU;
+    document.getElementById('spring_project_button').innerHTML = spring_project_buttonHU;
+    document.getElementById('spring_project_caption').innerHTML = spring_project_captionHU;
+    document.getElementById('spring_project_3').innerHTML = spring_project_3HU;
 
     document.getElementById('p_contact').innerHTML = contactTextHU;
     document.getElementById('p_footer').innerHTML = footerTextHU;
@@ -233,8 +266,12 @@ function languageChangeEN() {
     document.getElementById('h_faq').innerHTML = faqEN;
     document.getElementById('btn_techno').innerHTML = technoEN;
     document.getElementById('h_techno').innerHTML = technoEN;
-    document.getElementById('btn_project').innerHTML = projectEN;
-    document.getElementById('h_project').innerHTML = projectEN;
+    document.getElementById('btn_swing_project').innerHTML = swing_projectEN;
+    document.getElementById('h_swing_project').innerHTML = swing_projectEN;
+    document.getElementById('h2_swing_project').innerHTML = swing_project_captionEN;
+    document.getElementById('btn_spring_project').innerHTML = spring_projectEN;
+    document.getElementById('h_spring_project').innerHTML = spring_projectEN;
+    document.getElementById('h2_spring_project').innerHTML = spring_project_captionEN;
     document.getElementById('btn_contact').innerHTML = contactEN;
     document.getElementById('h_contact').innerHTML = contactEN;
 
@@ -256,11 +293,17 @@ function languageChangeEN() {
     document.getElementById('techno_framework').innerHTML = techno_frameworkEN;
     document.getElementById('techno_development_tools').innerHTML = techno_development_toolsEN;
 
-    document.getElementById('project_1').innerHTML = project_1EN;
-    document.getElementById('project_2').innerHTML = project_2EN;
-    document.getElementById('project_button').innerHTML = project_buttonEN;
-    document.getElementById('project_caption').innerHTML = project_captionEN;
-    document.getElementById('project_3').innerHTML = project_3EN;
+    document.getElementById('swing_project_1').innerHTML = swing_project_1EN;
+    document.getElementById('swing_project_2').innerHTML = swing_project_2EN;
+    document.getElementById('swing_project_button').innerHTML = swing_project_buttonEN;
+    document.getElementById('swing_project_caption').innerHTML = swing_project_captionEN;
+    document.getElementById('swing_project_3').innerHTML = swing_project_3EN;
+
+    document.getElementById('spring_project_1').innerHTML = spring_project_1EN;
+    document.getElementById('spring_project_2').innerHTML = spring_project_2EN;
+    document.getElementById('spring_project_button').innerHTML = spring_project_buttonEN;
+    document.getElementById('spring_project_caption').innerHTML = spring_project_captionEN;
+    document.getElementById('spring_project_3').innerHTML = spring_project_3EN;
 
     document.getElementById('p_contact').innerHTML = contactTextEN;
     document.getElementById('p_footer').innerHTML = footerTextEN;
@@ -282,8 +325,12 @@ document.getElementById('btn_faq').innerHTML = faqEN;
 document.getElementById('h_faq').innerHTML = faqEN;
 document.getElementById('btn_techno').innerHTML = technoEN;
 document.getElementById('h_techno').innerHTML = technoEN;
-document.getElementById('btn_project').innerHTML = projectEN;
-document.getElementById('h_project').innerHTML = projectEN;
+document.getElementById('btn_swing_project').innerHTML = swing_projectEN;
+document.getElementById('h_swing_project').innerHTML = swing_projectEN;
+document.getElementById('h2_swing_project').innerHTML = swing_project_captionEN;
+document.getElementById('btn_spring_project').innerHTML = spring_projectEN;
+document.getElementById('h_spring_project').innerHTML = spring_projectEN;
+document.getElementById('h2_spring_project').innerHTML = spring_project_captionEN;
 document.getElementById('btn_contact').innerHTML = contactEN;
 document.getElementById('h_contact').innerHTML = contactEN;
 
@@ -305,11 +352,17 @@ document.getElementById('techno_other').innerHTML = techno_otherEN;
 document.getElementById('techno_framework').innerHTML = techno_frameworkEN;
 document.getElementById('techno_development_tools').innerHTML = techno_development_toolsEN;
 
-document.getElementById('project_1').innerHTML = project_1EN;
-document.getElementById('project_2').innerHTML = project_2EN;
-document.getElementById('project_button').innerHTML = project_buttonEN;
-document.getElementById('project_caption').innerHTML = project_captionEN;
-document.getElementById('project_3').innerHTML = project_3EN;
+document.getElementById('swing_project_1').innerHTML = swing_project_1EN;
+document.getElementById('swing_project_2').innerHTML = swing_project_2EN;
+document.getElementById('swing_project_button').innerHTML = swing_project_buttonEN;
+document.getElementById('swing_project_caption').innerHTML = swing_project_captionEN;
+document.getElementById('swing_project_3').innerHTML = swing_project_3EN;
+
+document.getElementById('spring_project_1').innerHTML = spring_project_1EN;
+document.getElementById('spring_project_2').innerHTML = spring_project_2EN;
+document.getElementById('spring_project_button').innerHTML = spring_project_buttonEN;
+document.getElementById('spring_project_caption').innerHTML = spring_project_captionEN;
+document.getElementById('spring_project_3').innerHTML = spring_project_3EN;
 
 document.getElementById('p_contact').innerHTML = contactTextEN;
 document.getElementById('p_footer').innerHTML = footerTextEN;
@@ -319,5 +372,3 @@ document.getElementById('i_linkedin').innerHTML = linkedinEN;
 document.getElementById('i_facebook').innerHTML = facebookEN;
 document.getElementById('i_email').innerHTML = emailEN;
 document.getElementById('i_mobile').innerHTML = mobileEN;
-
-
