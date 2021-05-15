@@ -161,12 +161,12 @@ var spring_project_buttonHU = 'Kattints ide a részletekért!';
 var spring_project_buttonEN = 'Click here for details!';
 var spring_project_captionHU = 'Teherautó rakomány tervező';
 var spring_project_captionEN = 'Truck Cargo Planner';
-var spring_project_3HU = 'A Teherautó rakomány tevezőt a weben <a href="http://tcp.eftomi.com" target="_blank"><strong>ide kattintva</strong></a> éred el.<br><br>'
-    + 'A tervező program kódjait <a href="https://github.com/TamasFulopEftomi/tcp" target = "_blank"><strong>'
+var spring_project_3HU = '<!--A Teherautó rakomány tevezőt a weben <a href="http://tcp.eftomi.com" target="_blank"><strong>ide kattintva</strong></a> éred el.<br><br>-->'
+    + 'A Teherautó rakomány tervező program kódjait <a href="https://github.com/TamasFulopEftomi/tcp" target = "_blank"><strong>'
     + 'ide kattintva</strong ></a> éred el.<br><br>Ezen bemutatkozó honlapom kódjait pedig <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank"><strong>'
     + 'ide kattintva</strong ></a> éred el.';
-var spring_project_3EN = 'The Truck Cargo Planner you can find on web <a href="http://tcp.eftomi.com" target="_blank"><strong>click here</strong></a>.<br><br>'
-    + 'Codes of the software you can find <a href="https://github.com/TamasFulopEftomi/tcp" target = "_blank"> '
+var spring_project_3EN = '<!--The Truck Cargo Planner you can find on web <a href="http://tcp.eftomi.com" target="_blank"><strong>click here</strong></a>.<br><br>-->'
+    + 'Codes of the Truck Cargo Planner software you can find <a href="https://github.com/TamasFulopEftomi/tcp" target = "_blank"> '
     + '<strong>click here</strong></a>.<br><br>Codes of this introduction webpage you can find <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank">'
     + '<strong>click here</strong ></a>.';
 
@@ -181,8 +181,8 @@ var contactTextEN = 'You can find out more about my ability as a software develo
     + ' target="_blank" title="Visit me on LinkedIn."><strong>LinkedIn</strong></a>.<br>On my <a href="https://www.facebook.com/tamas.fulop.eftomi"'
     + ' target="_blank" title="Visit me on Facebook."><strong>Facebook</strong></a> profile you can see more about me and my hobbies.<br>If your have any questions feel free to call / write me.'
     + '<br>Phone: <a href="tel:+36302512561">+36 30 251 twentyfive sixtyone</a><br>Email: <a href="mailto:tamas.fulop@efomi.com">tamas (dot) fulop (dot) eftomi (at) gmail (dot) com</a>';
-var footerTextHU = '<small>©2021 <i class="far fa-eye"></i> Fülöp Tamás <i class="far fa-eye"></i><a href="https://about.eftomi.com" target="blank"> about.eftomi.com</a></small>';
-var footerTextEN = '<small>©2021 <i class="far fa-eye"></i> Tamas Fulop <i class="far fa-eye"></i><a href="https://about.eftomi.com" target="blank"> about.eftomi.com</a></small>';
+var footerTextHU = '<small>©2021 <i class="far fa-eye"></i> Fülöp Tamás <i class="far fa-eye"></i><a href="https://www.eftomi.com" target="blank"> about.eftomi.com</a></small>';
+var footerTextEN = '<small>©2021 <i class="far fa-eye"></i> Tamas Fulop <i class="far fa-eye"></i><a href="https://www.eftomi.com" target="blank"> about.eftomi.com</a></small>';
 
 var githubHU = '<a href="https://github.com/TamasFulopEftomi" target="_blank" title="Tekintsd meg Github repozitorimat."><i class="fab fa-2x fa-github trans"></i></a>';
 var githubEN = '<a href="https://github.com/TamasFulopEftomi" target="_blank" title="Take a look at my Github repository."><i class="fab fa-2x fa-github trans"></i></a>';
