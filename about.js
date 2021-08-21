@@ -18,14 +18,11 @@ var spring_projectEN = 'Spring Boot Web Project';
 var contactHU = 'Kapcsolatok';
 var contactEN = 'Contacts';
 
-var about_meHU = 'Az elmúlt 20 évben az ellátási láncban dolgoztam, leginkább termelés tervezőként. Jelenleg diplomás karrierváltó álláskereső vagyok. Csapatjátékosként arra törekszem, '
-    + 'hogy szakmailag előremutató és pontos munkát végezzek, barátságos megközelítéssel. Sok kódtapasztalattal és képzéssel felépített számítógépes ismeretettel rendelkezem, hogy '
-    + 'alkalmazkodni tudjak a különböző munkakörnyezetekhez. Mindig proaktív vagyok, szívesen fejlesztem magam új területeken. A megkezdett karrierutam a jövőben a szoftverfejlesztés '
-    + 'területén fogom folytatni.';
-var about_meEN = 'In the previous 20 years I worked in Supply Chain sector, mostly in Production Planner role. Currently I am a graduate job seeker standing before career path changing. '
-    + 'As a team player I strive to produce professional and accurate work with a friendly approach. Computer literate with a great deal of code experience and training to adapt to any work '
-    + 'environment. I am always proactive, keen to develop new areas. I am particularly keen on working in software development area in the future.';
-
+var about_meHU = 'Csapatjátékosként törekszem arra, hogy szakmailag előremutató és pontos munkát végezzek, barátságos megközelítéssel. Sok kódtapasztalattal és képzéssel felépített '
+    + 'számítógépes ismeretettel rendelkezem, hogy alkalmazkodni tudjak a különböző munkakörnyezetekhez. Mindig proaktív vagyok, szívesen fejlesztem magam új területeken. A '
+    + 'karrierutamat a szoftverfejlesztés területén kívánom folytatni.';
+var about_meEN = 'As a team player I strive to produce professional and accurate work with a friendly approach. Computer literate with a great deal of code experience and training '
+    + 'to adapt to any work environment. I am always proactive, keen to develop new areas. I am particularly keen on working in software development area.';
 var q1HU = 'Mi volt a motiváció a karrier váltáshoz?';
 var q1EN = 'What was the motivation to change your carrier?';
 var a1HU = 'A feladataim elvégzéséhez excel táblázatokat használtam, így magas szintű készségeket fejlesztettem ki a szoftver alkalmazásában. '
