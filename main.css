@@ -50,7 +50,7 @@ a {
   color: #d2ba87;
 }
 
-#faq a:hover, #contact a:hover, #swing_project a:hover, #spring_project a:hover, #p_footer a:hover {
+#faq a:hover, #contact a:hover, #portfolio_project a:hover, #swing_project a:hover, #spring_project a:hover, #p_footer a:hover {
   color: rgb(0, 0, 0);
   transition: color .15s ease-in-out;
   text-decoration: underline;
@@ -258,16 +258,16 @@ button {
   width: 100%;
 }
 
-#swing_project_1, #swing_project_3, #spring_project_1, #spring_project_3 {
+#portfolio_project_1, #portfolio_project_2, #swing_project_1, #swing_project_3, #spring_project_1, #spring_project_3 {
   text-align: justify;
 }
 
-#swing_project_caption, #spring_project_caption {
+#portfolio_porject_caption, #swing_project_caption, #spring_project_caption {
   font-family: Mulish, sans-serif;
   font-size: .8rem;
 }
 
-#swing_project_3, #spring_project_3 {
+#portfolio_project2, #swing_project_3, #spring_project_3 {
   margin-top: 1.5rem;
 }
 

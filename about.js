@@ -9,8 +9,10 @@ var aboutHU = "Magamról";
 var aboutEN = "About Me";
 var faqHU = 'Kérdések és Válaszok';
 var faqEN = 'Questions and Answers';
-var technoHU = 'Használt Technológiák';
-var technoEN = 'Technologies Used';
+var technoHU = 'Ismert Technológiák';
+var technoEN = 'Known Technologies';
+var portfolio_projectHU = 'Weboldal Projekt';
+var portfolio_projectEN = 'Webpage Project';
 var swing_projectHU = 'Swing Desktop Projekt';
 var swing_projectEN = 'Swing Desktop Project';
 var spring_projectHU = 'Spring Boot Web Projekt';
@@ -19,56 +21,50 @@ var contactHU = 'Kapcsolatok';
 var contactEN = 'Contacts';
 
 var about_meHU = 'Csapatjátékosként törekszem arra, hogy szakmailag előremutató és pontos munkát végezzek, barátságos megközelítéssel. Sok kódtapasztalattal és képzéssel felépített '
-    + 'számítógépes ismeretettel rendelkezem, hogy alkalmazkodni tudjak a különböző munkakörnyezetekhez. Mindig proaktív vagyok, szívesen fejlesztem magam új területeken. A '
+    + 'fejlesztői ismeretettel rendelkezem, hogy alkalmazkodni tudjak a különböző munkakörnyezetekhez. Mindig proaktív vagyok, szívesen fejlesztem magam új területeken. A '
     + 'karrierutamat a szoftverfejlesztés területén kívánom folytatni.';
-var about_meEN = 'As a team player I strive to produce professional and accurate work with a friendly approach. Computer literate with a great deal of code experience and training '
-    + 'to adapt to any work environment. I am always proactive, keen to develop new areas. I am particularly keen on working in software development area.';
+var about_meEN = 'As a team player I strive to produce professional and accurate work with a friendly approach. Development and computer literate with a great deal of code experience '
+    + 'and training to adapt to any work environment. I am always proactive, keen to develop new areas. I am particularly keen on working in software development area.';
 var q1HU = 'Mi volt a motiváció a karrier váltáshoz?';
 var q1EN = 'What was the motivation to change your carrier?';
 var a1HU = 'A feladataim elvégzéséhez excel táblázatokat használtam, így magas szintű készségeket fejlesztettem ki a szoftver alkalmazásában. '
     + 'Ez mellett a termelés tervezői pozíciók tapasztalatai folyamán megtanultam a feladatokat rendszer szintű megközelítéssel megoldani. A legutóbb termelés tervezőként készítettem '
-    + 'egy hatékony excel táblázatot. Ez a tervező eszköz láthatóvá tette a vezetőknek a gyártási adatokat a napi szintű gyors és megbízható döntés hozatalhoz a termelés irányításában. Ehhez '
-    + 'a munkához az ERP-ből származó adatokat dolgoztam fel excelben. Az excel tábla két fő részből áll. Az egyik része egy redundancia nélküli könnyen módosítható adatbázis. '
-    + 'A tábla másik része a felelőse a számításoknak és az adatok vizualizációjának. Tehát ez az excel eszköz kiegészítője az ERP rendszernek a rövid és középtávú tervezések '
-    + 'tekintetében. Ezt az eszközt a csoportvezetők és menedzserek használják a napi munkájukhoz. Az alkalmazás fejlesztése közben éreztem, hogy ez az a terület, amivel szeretnék '
-    + 'foglalkozni a jövőben, a szoftver fejlesztés.';
+    + 'egy hatékony excel eszközt. Az alkalmazás fejlesztése közben éreztem, hogy ez az a terület, amivel szeretnék foglalkozni a jövőben, a szoftver fejlesztés.';
 var a1EN = 'I used excel spreadsheets to manage my tasks, so I have developed a high skill set in the use of this software. And besides '
     + 'I have a good systematic approach to task management which I developed as a function of my role as a production planner. At my last job as Production Planner '
-    + 'I built up an efficient excel tool. This planner tool made visible the manufacturing data to help the leaders in the fast and reliable decision making on daily basis. For this job '
-    + 'I processed the data exported from the ERP system. The tool built up from two main section. One part is responsible for the database without redundancy and with easy data maintenance. '
-    + 'The other part of the tool is responsible for the computational tasks with functions and made the visualization of the datas. So this excel tool is a kind of supplementary system to '
-    + 'ERP system about production planning on a short and on a midterm. This tool is used by team leaders and managers as well for their job day by day. Along the way I develop this '
-    + 'tool I realized that this is the area I would like to deal with in the future, the software development.';
+    + 'I built up an efficient excel tool. Along the way I develop this tool I realized that this is the area I would like to deal with in the future, the software development.';
 var q2HU = 'Hogyan kezdtél el változtatni?';
 var q2EN = 'How did you start the change?';
-var a2HU = '2018 nyár elején kezdtem el lépéseket tenni, hogy szoftver fejlesztővé váljak. Vásároltam egy online tanfolyamot és azonnal elkezdtem fejleszteni magam. Előzőleg több mindent '
-    + 'tanultam online, hogy fejlesszem tudásomat és a készségeimet. Így tudtam, hogy megfelelő motívációval és fegyelemmel rendelkezem ahhoz, hogy hatékonyan tanuljak egy online tanfolyamon. '
-    + 'Többek között volt egy különleges tanfolyam, a <a href="https://www.studicore.hu/kurzus/java_se/" title="JAVA SE 8 tanfolyam" target="_blank">JAVA SE</a> a '
-    + '<a href="https://www.studicore.hu" title="www.studicore.hu" target="_blank"> StudiCore kft</a>-től amely megfelelt az igényeimnek, ezért megvásároltam azt. Ez volt az első tanfolyam a '
-    + 'sorban, melyet követett még néhány.';
+var a2HU = '2018. év nyár elején kezdtem el lépéseket tenni, hogy szoftver fejlesztővé váljak. Előzőleg több mindent tanultam online, hogy fejlesszem tudásomat és a készségeimet. Így tudtam, '
+    + 'hogy megfelelő motívációval és fegyelemmel rendelkezem ahhoz, hogy hatékonyan tanuljak egy online tanfolyamon. Többek között volt egy különleges tanfolyam a '
+    + '<a href="https://www.studicore.hu/kurzus/java_se/" title="JAVA SE 8 tanfolyam" target="_blank">JAVA SE</a> a <a href="https://www.studicore.hu" title="www.studicore.hu" target="_blank"> '
+    + 'StudiCore</a>-tól, amely megfelelt az igényeimnek ezért megvásároltam azt. Majd később elvégeztem Náluk a '
+    + '<a href="https://www.studicore.hu/kurzus/spring/" title="SPRING BOOT tanfolyam" target="_blank">SPRING BOOT</a> kurzust is. A kurzusok időtartama alatt kijelölt mentorom volt, aki '
+    + 'a tanfolyam elejétől a végéig a rendelkezésemre állt. Mindezek mellett megtanultam a <a href="https://codeberryschool.com/hu" title="www.codeberryschool.com/hu" target="_blank">CodeBerry</a>'
+    + '-nél a <a href="https://codeberryschool.com/hu/weboldal-keszites-tanfolyam" title="Weboldal készítés tanfolyam" target="_blank">Weboldal készítés</a> módját is.';
 var a2EN = 'In the beginning of the summer of 2018 I made steps to become software developer. I purchased an online course and started to improve myself immediately. '
     + 'Previously I have studied many things online to improve my knowledge and skill set. So I knew I had the right motivation and discipline to study efficiently with the online course. '
     + 'Amongst others there was one special course, <a href="https://www.studicore.hu/kurzus/java_se/" title="JAVA SE 8 course" target="_blank">JAVA SE</a> by '
     + '<a href="https://www.studicore.hu" title="www.studicore.hu" target="_blank">StudiCore Ltd</a> that suited my requirements so I bought this. This was the first one in a row of learnt '
-    + 'courses.';
-var q3HU = 'Az online hozzáférésen kívül mi volt még meghatározó abban, hogy a <a href="https://www.studicore.hu" title="www.studicore.hu" target="_blank">StudiCore</a> kurzusa mellett döntöttél?';
-var q3EN = 'Apart from online access to course what else was decisive in your choice next to <a href="https://www.studicore.hu" title="www.studicore.hu" target="_blank">StudiCore</a>?';
-var a3HU = 'Kijelölt mentorom volt, aki a képzés alatt végig a rendelkezésemre állt. A kurzus sok tananyagból épült össze rengeteg kódolási feladattal. Minden fejezet egy gyakorlati vizsga'
-    + 'feladattal végződött. Ha nem volt megfelelő a kódom, akkor nem tudtam tovább menni a következő szintre. Tehát addig kellett újra és újra megcsinálnom a feladatot, amíg nem volt megfelelő '
-    + 'az eredmény. Így sikerült a tanulmányaimat mélyen megtanulnom. A kurzus megtanítja a tanulókkal, hogy milyen tudásra van szükség ahhoz, hogy elinduljanak a szoftver fejlesztés útján.';
-var a3EN = 'I had a dedicated mentor who helped me along the way of study. The course was building up from a lot of lectures with a huge amount of coding tasks. '
-    + 'Every chapter ends with some practice exams. If one of the exam code was bad in the test I could not go further to the next level. So I had to do it again until the '
-    + ' exam result was not right. Learning in this way I could learn deeply coding. The course teaches for the students what they need to know how to start on the way of software developing.';
-var q4HU = 'Mi a legmagasabb végzettséged?';
-var q4EN = 'What is your highest degree?';
-var a4HU = 'Az egyik önfejlesztésem a főiskolai tanulmányaimról szólt. Műszaki Menedzser mérnöki diplomát szereztem a helyi főiskolán 2011 nyarán.';
-var a4EN = 'One of my self improvement courses was about college learning. I graduated with a degree in Engineering Management at the local college in the summer of 2011.';
-var q5HU = 'Milyen szinten állsz az angollal?';
-var q5EN = 'What is the level of your english language knowledge?';
-var a5HU = 'Közép szinten beszélem és írom is a nyelvet. Projekt menedzserként és ügyfélszolgálati munkatársként is dolgoztam a közelmúltban. Azokban a pozíciókban napi szinten használtam '
-    + 'az angol tudásom szóban és írásban is egyaránt, a külföldi ügyfelekkel történő kapcsolat tartásban és a nem magyar menedzserekkel és kollegákkal való kommunikációban.';
-var a5EN = 'I also speak and write the language in a mid level. I have also worked as project manager and as customer service representative in the recent past too. Within those positions '
-    + 'I used my English skills both oral and written to keep in touch with the foreign customers as well as communicating with non - Hungarian Managers and colleagues on a daily basis. ';
+    + 'courses. After this I finished <a href="https://www.studicore.hu/kurzus/spring/" title="SPRING BOOT course" target="_blank">SPRING BOOT</a> here. I had here a dedicated mentor who '
+    + 'helped me along the way of study. I learnt by <a href="https://codeberryschool.com/en" title="www.codeberryschool.com/en" target="_blank">CodeBerry</a> the method of '
+    + '<a href="https://codeberryschool.com/hu/weboldal-keszites-tanfolyam" title="Webpage Development course" target="_blank">webpage development</a> beside this.';
+var q3HU = 'Mi a legmagasabb végzettséged?';
+var q3EN = 'What is your highest degree?';
+var a3HU = 'Az egyik önfejlesztésem a főiskolai tanulmányaimról szólt. Műszaki Menedzser mérnöki diplomát szereztem a Dunaújvárosi főiskolán 2011 nyarán.';
+var a3EN = 'One of my self improvement courses was about college learning. I graduated with a degree in Engineering Management at College of Dunaújváros in the summer of 2011.';
+var q4HU = 'Milyen szinten állsz az angollal?';
+var q4EN = 'What is the level of your english knowledge?';
+var a4HU = 'Közép szinten, napi gyakorisággal használom a nyelvet. Beszédben és írásban is. A jelenlegi munkahelyemen egy nemzetközi scrum csapat tagjaként dolgozom fejlesztőként. A csapat '
++ 'megbeszélései: daily meeting, sprint review, retrospective meeting, stb. mind angolul zajlanak.';
+var a4EN = 'I speak and write the language in a mid level on a daily basis. In the current workplace I do my job as a member of an international srcum team as a developer. Along the team meetings '
++ 'we use english to communicate with each other. Meetings like: daily meeting, sprint review, retrospective meeting etc.';
+var q5HU = 'Milyen fejlesztői munka tapasztalattal rendelkezel?';
+var q5EN = 'What kind of development work experience do you have?';
+var a5HU = '2021. áprilisban kezdtem az új pályámat az Abiscon SAS Kft-nél, mint szoftverfejlesztő. Folyamatos mentorálás mellett egy banki projektre kerültem, egy nemzetközi fejlesztői csapatba. '
+    +'Scrum csapatunk REST protocollal rendelkező microservice-k funkcióit fejleszti Spring környezetben.';
+var a5EN = 'I have started my new carreer in April of 2021 at Abiscon SAS Ltd, as software developer. I started my job next to a continuous mentoring in a banking project as a member of an '
+    +'international team. Our scrum team develop functions for microservices with REST protocol in Spring environment.';
 
 var techno_developmentHU = "Fejlesztés";
 var techno_developmentEN = "Development";
@@ -79,11 +75,22 @@ var techno_frameworkEN = "Framework";
 var techno_development_toolsHU = "Fejlesztő Eszközök";
 var techno_development_toolsEN = "Development Tools";
 
+var portfolio_project_1HU = 'Ezt a weboldalt azért készítettem, hogy a projekt munkáimon keresztül bemutassam a szoftverfejlesztés területén tanult és tapasztalt technológiai ismereteimet. '
+    + 'A projektek és azok forrásai, valamint az alkalmazásokat bemutató videók elérhetők a projektek alatt lévő hivatkozásokon keresztül.'
+    + '<br><br>Ezen reszponzív weboldal készítéséhez felhasznált technológiák: <strong>HTML, CSS, Bootstrap, JavaScript.</strong><br><br>';
+var portfolio_project_1EN = 'I made this webpage to demonstrate my technological knowledge and experience on the field of software development via my projects. You can access the projetcts '
+    + 'and those sources furthermore those demonstration videos via link below the projects.<br><br>Used technologies for '
+    + 'this responsive webpage: <strong>HTML, CSS, Bootstrap, JavaScript.</strong><br><br>';
+var portfolio_project_captionHU = 'Portfólió bemutató oldal';
+var portfolio_project_captionEN = 'Portfolio Presentation Page';
+var portfolio_project_2HU = 'A Portfólió bemutató oldal kódjait a GitHub repository-ban <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank"><strong> ide kattintva</strong ></a> éred el.';
+var portfolio_project_2EN = 'Codes of this Portfolio Presentation Page in GitHub repository you can find <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank"><strong>click here</strong></a>.';
+
 var swing_project_1HU = 'Az egyik korábbi munkahelyemen felmerült igény megoldásaként készítettem 2010.év környékén az alábbi kalkulátort, akkor még excel táblázatkezelőben valósítottam meg '
-    + 'az eszközt.<br><br>A programhoz felhasznált technológiák: <strong>Java 8, JUnit, Swing, Maven.</strong><br><br>A kétnyelvű asztali alkalmazás Java implementációját a kép alatti '
-    + 'hivatkozásban éred el.<br><br>';
+    + 'az eszközt.<br><br>A programhoz felhasznált technológiák: <strong>Java 8, JUnit, Swing, Maven.</strong><br><br>A kétnyelvű asztali alkalmazás hozzáféréseit a kép alatti '
+    + 'hivatkozásokban éred el.<br><br>';
 var swing_project_1EN = 'I made the following calculator around 2010 as a solution to the demand of one of my previous job. I created this tool in excel spreadsheet that time.<br><br>Used '
-    + 'technologies for the application: <strong>Java 8, JUnit, Swing, Maven.</strong > <br><br>You can access the Java implementation of this bilingual desktop application via the link below '
+    + 'technologies for the application: <strong>Java 8, JUnit, Swing, Maven.</strong > <br><br>You can find the accesses of this bilingual desktop application via the links below '
     + 'the image.<br><br>';
 var swing_project_2HU = '<h4>A szoftver motivációja:</h4><br>'
     + 'Az acélgyártás egyik végterméke a hengerelt lemez, melyet lemeztábla, szélestekercs és csík formájában is forgalmaznak továbbfeldolgozásra a feldolgozó iparnak. Az alkalmazás a hidegen '
@@ -119,23 +126,25 @@ var swing_project_buttonHU = 'Kattints ide a részletekért!';
 var swing_project_buttonEN = 'Click here for details!';
 var swing_project_captionHU = 'Acélszalag hasítóállvány méretszerkesztő';
 var swing_project_captionEN = 'Steel Slitting Stand Dimension Calculator';
-var swing_project_3HU = 'Az acélszalag hasítóállvány méretszerkesztőt és annak kódjait <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank"><strong>'
-    + 'ide kattintva</strong ></a > éred el.<br><br>Ezen bemutatkozó honlapom kódjait pedig <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank"><strong>'
-    + 'ide kattintva</strong ></a > éred el.';
-var swing_project_3EN = 'Steel Slitting Stand Dimension Calculator and its codes you can find <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank">'
-    + '<strong>click here</strong></a>.<br><br>Codes of this introduction webpage you can find <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank">'
-    + '<strong>click here</strong ></a>.';
+var swing_project_3HU = 'Az Acélszalag hasítóállvány méretszerkesztőt <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator/blob/master/steelSlittingCalculator-0.1.0.jar" target="_blank"><strong>'
+    + 'ide kattintva</strong ></a> tudod letölteni.<br><br>A program kódjait tartalmazó GitHub repository-t <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank"><strong>'
+    + 'ide kattintva</strong ></a> éred el.<br><br>Az alkalmazást bemutató angol nyelvű videót <a href="https://drive.google.com/file/d/1ZMY08sKSu66gWuPHVMqFN_TW2wMGxpfa/view?usp=sharing" target="_blank"><strong>'
+    + 'ide kattintva</strong ></a> éred el.';
+var swing_project_3EN = 'Steel Slitting Stand Dimension Calculator software you can download from <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator/blob/master/steelSlittingCalculator-0.1.0.jar" target="_blank">'
+    + '<strong>click here</strong></a>.<br><br>The codes of the software in GitHub repository you can find <a href="https://github.com/TamasFulopEftomi/steel_slitting_calculator" target="_blank">'
+    + '<strong>click here</strong></a>.<br><br>The video of demonstration of the application in english language you can find <a href="https://drive.google.com/file/d/1ZMY08sKSu66gWuPHVMqFN_TW2wMGxpfa/view?usp=sharing" target="_blank"><strong>'
+    + 'click here</strong ></a>.';
 
 var spring_project_1HU = 'A korábbi munkahelyeimen tapasztalatot gyüjtöttem acél lemez, acél szerkezetek, fém alkatrészek, kisebb-nagyobb fa szerkezetek, gumi és műanyag alkatrészek és '
     + 'termékek gépi és kézi feldolgozásának irányításában. Az egyik közös pont a különböző cégben az volt, hogy az elkészült termékeket el kellett szállítani a következő feldolgozóig. '
     + 'Legtöbbször teherautóval. A korábbi tapasztalataim alapján készítettem az alábbi webes alkalmazást, melynél előtérbe helyeztem a szoftver mobil telefonon, tableten történő '
-    + 'felhasználásának lehetőségét is.<br><br>A programhoz felhasznált technológiák: <strong>Spring Boot, Spring MVC, Spring Data, H2 database, Linux server, Thymeleaf, Bootstrap.</strong>'
-    + '<br><br>Az angol nyelvű web alkalmazás implementációját a kép alatti hivatkozásban éred el.<br><br>';
-    var spring_project_1EN = 'In my previous jobs, I have gained experience in managing the machine and manual processing of steel sheet, steel structures, metal parts, small and large wooden '
+    + 'felhasználásának lehetőségét is.<br><br>A programhoz felhasznált technológiák: <strong>Spring Boot, Spring MVC, Spring Data, Maven, H2 database, Linux server, Thymeleaf, Bootstrap.</strong>'
+    + '<br><br>Az angol nyelvű web alkalmazás hozzáféréseit a kép alatti hivatkozásokban éred el.<br><br>';
+var spring_project_1EN = 'In my previous jobs, I have gained experience in managing the machine and manual processing of steel sheet, steel structures, metal parts, small and large wooden '
     + 'structures, rubber and plastic parts and products. There was one common point among others between the companies, that the finished products had to be delivered to the next processor '
     + 'company. Most of the time with truck. Based on my preious experience, I created the following web application in which I also focused on the possibility of using this software on a '
-    + 'mobile phone or on a tablet as well.<br><br>Used technologies for the application: <strong>Spring Boot, Spring MVC, Spring Data, H2 database, Linux server, Thymeleaf, Bootstrap.</strong>'
-    + '<br><br>You can access the implementation of this web application via the link below the image.<br><br>';
+    + 'mobile phone or on a tablet as well.<br><br>Used technologies for the application: <strong>Spring Boot, Spring MVC, Spring Data, Maven, H2 database, Linux server, Thymeleaf, Bootstrap.</strong>'
+    + '<br><br>You can find accesses of this web application via the links below the image.<br><br>';
 var spring_project_2HU = '<h4>A szoftver motivációja:</h4><br>'
     + 'A szoftver egy gépalkatrész forgalmazó központi raktárában működik, az ömlesztett alkatrészek területén. Az operátor csomagolási utasításokat és a szállításra érkező teherautók '
     + 'rakományát tudja megtervezni a szoftverrel. A szállítandó termékek csomagolási utasításai eltérőek. Az egyszerűség kedvéért korlátlan darab számban állnak rendelkezésre a különböző '
@@ -158,30 +167,30 @@ var spring_project_buttonHU = 'Kattints ide a részletekért!';
 var spring_project_buttonEN = 'Click here for details!';
 var spring_project_captionHU = 'Teherautó rakomány tervező';
 var spring_project_captionEN = 'Truck Cargo Planner';
-var spring_project_3HU = '<!--A Teherautó rakomány tevezőt a weben <a href="http://tcp.eftomi.com" target="_blank"><strong>ide kattintva</strong></a> éred el.<br><br>-->'
-    + 'A Teherautó rakomány tervező program kódjait <a href="https://github.com/TamasFulopEftomi/tcp" target = "_blank"><strong>'
-    + 'ide kattintva</strong ></a> éred el.<br><br>Ezen bemutatkozó honlapom kódjait pedig <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank"><strong>'
-    + 'ide kattintva</strong ></a> éred el.';
-var spring_project_3EN = '<!--The Truck Cargo Planner you can find on web <a href="http://tcp.eftomi.com" target="_blank"><strong>click here</strong></a>.<br><br>-->'
-    + 'Codes of the Truck Cargo Planner software you can find <a href="https://github.com/TamasFulopEftomi/tcp" target = "_blank"> '
-    + '<strong>click here</strong></a>.<br><br>Codes of this introduction webpage you can find <a href="https://github.com/TamasFulopEftomi/about_me" target="_blank">'
-    + '<strong>click here</strong ></a>.';
+var spring_project_3HU = 'A Teherautó rakomány tevezőt a weben <a href="http://tcp.eftomi.com" target="_blank"><strong>ide kattintva</strong></a> éred el.<br><br>'
+    + 'A program kódjait tartalmazó GitHub repository-t <a href="https://github.com/TamasFulopEftomi/truck_cargo_planner" target = "_blank"><strong>'
+    + 'ide kattintva</strong ></a> éred el.<br><br>Az alkalmazást bemutató magyar nyelvű videót <a href="https://drive.google.com/file/d/1vnGEXR2acYT_UDDHNuB7GssS8FRL-K64/view?usp=sharing" target="_blank"><strong>'
+    + 'ide kattintva</strong ></a> éred el';
+var spring_project_3EN = 'The Truck Cargo Planner you can find on web <a href="http://tcp.eftomi.com" target="_blank"><strong>click here</strong></a>.<br><br>'
+    + 'The codes of the software in GitHub repository you can find <a href="https://github.com/TamasFulopEftomi/truck_cargo_planner" target = "_blank"> '
+    + '<strong>click here</strong></a>.<br><br>The video of demonstration of the application in hungarian language you can find <a href="https://drive.google.com/file/d/1vnGEXR2acYT_UDDHNuB7GssS8FRL-K64/view?usp=sharing" target="_blank"><strong>'
+    + 'click here</strong ></a>.';
 
-var contactTextHU = 'Szoftverfejlesztői képességemet a <a href="https://github.com/TamasFulopEftomi" target="_blank" title="Tekintsd meg Github repozitorimat."><strong>Github</strong></a>'
-    + ' repozitorimban található kisebb-nagyobb projekteken keresztül mutatom be.<br>Önéletrajzomat megnézheted a <a href="https://www.linkedin.com/in/tamasfulopeftomi/"'
+var contactTextHU = 'Szoftverfejlesztői képességemet a <a href="https://github.com/TamasFulopEftomi" target="_blank" title="Tekintsd meg Github repository-mat."><strong>Github</strong></a>'
+    + ' repository-mban található kisebb-nagyobb projekteken keresztül mutatom be.<br>Önéletrajzomat megnézheted a <a href="https://www.linkedin.com/in/tamasfulopeftomi/"'
     + ' target="_blank" title="Látogass meg a LinkedIn-en."><strong>LinkedIn</strong></a>-en.<br>A <a href="https://www.facebook.com/tamas.fulop.eftomi"'
-    + ' target="_blank" title="Látogass meg a Facebook-on."><strong>Facebook</strong></a> profilomon keresztül többet megtudhatsz rólam és hobbijaimról.<br>Ha bármi kérdésed van, keress az'
-    + ' alábbi elérhetőségek valamelyikén!';
+    + ' target="_blank" title="Látogass meg a Facebook-on."><strong>Facebook</strong></a> profilomon keresztül többet megtudhatsz rólam és hobbijaimról.<br>Ha a fentiekkel kapcsolatban bármi '
+    + ' kérdésed merül fel, keress az alábbi elérhetőségek valamelyikén!';
     + '<br>Telefon: <a href="tel:+36302512561">+36 30 251 huszonöt hatvanegy</a><br>Email: <a href="mailto:tamas.fulop@efomi.com">tamas (pont) fulop (pont) eftomi (kukac) gmail (pont) com</a>';
 var contactTextEN = 'You can find out more about my ability as a software developer through smaller and larger projects in my <a href="https://github.com/TamasFulopEftomi" target="_blank"'
     + ' title="Take a look at my Github repository."><strong>Github</strong></a> repository.<br>You can see my professional CV on <a href="https://www.linkedin.com/in/tamasfulopeftomi/"'
     + ' target="_blank" title="Visit me on LinkedIn."><strong>LinkedIn</strong></a>.<br>On my <a href="https://www.facebook.com/tamas.fulop.eftomi"'
     + ' target="_blank" title="Visit me on Facebook."><strong>Facebook</strong></a> profile you can see more about me and my hobbies.<br>If your have any questions feel free to call / write me.'
     + '<br>Phone: <a href="tel:+36302512561">+36 30 251 twentyfive sixtyone</a><br>Email: <a href="mailto:tamas.fulop@efomi.com">tamas (dot) fulop (dot) eftomi (at) gmail (dot) com</a>';
-var footerTextHU = '<small>©2021 <i class="far fa-eye"></i> Fülöp Tamás <i class="far fa-eye"></i><a href="https://www.eftomi.com" target="blank"> about.eftomi.com</a></small>';
-var footerTextEN = '<small>©2021 <i class="far fa-eye"></i> Tamas Fulop <i class="far fa-eye"></i><a href="https://www.eftomi.com" target="blank"> about.eftomi.com</a></small>';
+var footerTextHU = '<small>©2021 <i class="far fa-eye"></i> Fülöp Tamás <i class="far fa-eye"></i><a href="https://www.eftomi.com" target="blank"> www.eftomi.com</a></small>';
+var footerTextEN = '<small>©2021 <i class="far fa-eye"></i> Tamas Fulop <i class="far fa-eye"></i><a href="https://www.eftomi.com" target="blank"> www.eftomi.com</a></small>';
 
-var githubHU = '<a href="https://github.com/TamasFulopEftomi" target="_blank" title="Tekintsd meg Github repozitorimat."><i class="fab fa-2x fa-github trans"></i></a>';
+var githubHU = '<a href="https://github.com/TamasFulopEftomi" target="_blank" title="Tekintsd meg Github repository-mat."><i class="fab fa-2x fa-github trans"></i></a>';
 var githubEN = '<a href="https://github.com/TamasFulopEftomi" target="_blank" title="Take a look at my Github repository."><i class="fab fa-2x fa-github trans"></i></a>';
 var linkedinHU = '<a href="https://www.linkedin.com/in/tamasfulopeftomi/" target="_blank" title="Látogass meg a LinkedIn-en."><i class="fab fa-2x fa-linkedin-in trans"></i></a>';
 var linkedinEN = '<a href="https://www.linkedin.com/in/tamasfulopeftomi/" target="_blank" title="Visit me on LinkedIn."><i class="fab fa-2x fa-linkedin-in trans"></i></a>';
@@ -203,6 +212,9 @@ function languageChangeHU() {
     document.getElementById('h_faq').innerHTML = faqHU;
     document.getElementById('btn_techno').innerHTML = technoHU;
     document.getElementById('h_techno').innerHTML = technoHU;
+    document.getElementById('btn_portfolio_project').innerHTML = portfolio_projectHU;
+    document.getElementById('h_portfolio_project').innerHTML = portfolio_projectHU;
+    document.getElementById('h2_portfolio_project').innerHTML = portfolio_project_captionHU;
     document.getElementById('btn_swing_project').innerHTML = swing_projectHU;
     document.getElementById('h_swing_project').innerHTML = swing_projectHU;
     document.getElementById('h2_swing_project').innerHTML = swing_project_captionHU;
@@ -229,6 +241,9 @@ function languageChangeHU() {
     document.getElementById('techno_other').innerHTML = techno_otherHU;
     document.getElementById('techno_framework').innerHTML = techno_frameworkHU;
     document.getElementById('techno_development_tools').innerHTML = techno_development_toolsHU;
+
+    document.getElementById('portfolio_project_1').innerHTML = portfolio_project_1HU;
+    document.getElementById('portfolio_project_2').innerHTML = portfolio_project_2HU;
 
     document.getElementById('swing_project_1').innerHTML = swing_project_1HU;
     document.getElementById('swing_project_2').innerHTML = swing_project_2HU;
@@ -263,6 +278,9 @@ function languageChangeEN() {
     document.getElementById('h_faq').innerHTML = faqEN;
     document.getElementById('btn_techno').innerHTML = technoEN;
     document.getElementById('h_techno').innerHTML = technoEN;
+    document.getElementById('btn_portfolio_project').innerHTML = portfolio_projectEN;
+    document.getElementById('h_portfolio_project').innerHTML = portfolio_projectEN;
+    document.getElementById('h2_portfolio_project').innerHTML = portfolio_project_captionEN;
     document.getElementById('btn_swing_project').innerHTML = swing_projectEN;
     document.getElementById('h_swing_project').innerHTML = swing_projectEN;
     document.getElementById('h2_swing_project').innerHTML = swing_project_captionEN;
@@ -289,6 +307,9 @@ function languageChangeEN() {
     document.getElementById('techno_other').innerHTML = techno_otherEN;
     document.getElementById('techno_framework').innerHTML = techno_frameworkEN;
     document.getElementById('techno_development_tools').innerHTML = techno_development_toolsEN;
+
+    document.getElementById('portfolio_project_1').innerHTML = portfolio_project_1EN;
+    document.getElementById('portfolio_project_2').innerHTML = portfolio_project_2EN;
 
     document.getElementById('swing_project_1').innerHTML = swing_project_1EN;
     document.getElementById('swing_project_2').innerHTML = swing_project_2EN;
@@ -322,6 +343,11 @@ document.getElementById('btn_faq').innerHTML = faqEN;
 document.getElementById('h_faq').innerHTML = faqEN;
 document.getElementById('btn_techno').innerHTML = technoEN;
 document.getElementById('h_techno').innerHTML = technoEN;
+
+document.getElementById('btn_portfolio_project').innerHTML = portfolio_projectEN;
+document.getElementById('h_portfolio_project').innerHTML = portfolio_projectEN;
+document.getElementById('h2_portfolio_project').innerHTML = portfolio_project_captionEN;
+
 document.getElementById('btn_swing_project').innerHTML = swing_projectEN;
 document.getElementById('h_swing_project').innerHTML = swing_projectEN;
 document.getElementById('h2_swing_project').innerHTML = swing_project_captionEN;
@@ -348,6 +374,9 @@ document.getElementById('techno_development').innerHTML = techno_developmentEN;
 document.getElementById('techno_other').innerHTML = techno_otherEN;
 document.getElementById('techno_framework').innerHTML = techno_frameworkEN;
 document.getElementById('techno_development_tools').innerHTML = techno_development_toolsEN;
+
+document.getElementById('portfolio_project_1').innerHTML = portfolio_project_1EN;
+document.getElementById('portfolio_project_2').innerHTML = portfolio_project_2EN;
 
 document.getElementById('swing_project_1').innerHTML = swing_project_1EN;
 document.getElementById('swing_project_2').innerHTML = swing_project_2EN;
