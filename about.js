@@ -21,7 +21,7 @@ var contactHU = 'Kapcsolatok';
 var contactEN = 'Contacts';
 
 var about_meHU = 'Csapatjátékosként törekszem arra, hogy szakmailag előremutató és pontos munkát végezzek, barátságos megközelítéssel. Sok kódtapasztalattal és képzéssel felépített '
-    + 'fejlesztői ismeretettel rendelkezem, hogy alkalmazkodni tudjak a különböző munkakörnyezetekhez. Mindig proaktív vagyok, szívesen fejlesztem magam új területeken. A '
+    + 'fejlesztői ismerettel rendelkezem, hogy alkalmazkodni tudjak a különböző munkakörnyezetekhez. Mindig proaktív vagyok, szívesen fejlesztem magam új területeken. A '
     + 'karrierutamat a szoftverfejlesztés területén kívánom folytatni.';
 var about_meEN = 'As a team player I strive to produce professional and accurate work with a friendly approach. Development and computer literate with a great deal of code experience '
     + 'and training to adapt to any work environment. I am always proactive, keen to develop new areas. I am particularly keen on working in software development area.';
@@ -49,8 +49,8 @@ var a2EN = 'In the beginning of the summer of 2018 I made steps to become softwa
     + 'courses. After this I finished <a href="https://www.studicore.hu/kurzus/spring/" title="SPRING BOOT course" target="_blank">SPRING BOOT</a> here. I had here a dedicated mentor who '
     + 'helped me along the way of study. I learnt by <a href="https://codeberryschool.com/en" title="www.codeberryschool.com/en" target="_blank">CodeBerry</a> the method of '
     + '<a href="https://codeberryschool.com/hu/weboldal-keszites-tanfolyam" title="Webpage Development course" target="_blank">webpage development</a> beside this.';
-var q3HU = 'Mi a legmagasabb végzettséged?';
-var q3EN = 'What is your highest degree?';
+var q3HU = 'Mi a legmagasabb iskolai végzettséged?';
+var q3EN = 'What is your highest level of education?';
 var a3HU = 'Az egyik önfejlesztésem a főiskolai tanulmányaimról szólt. Műszaki Menedzser mérnöki diplomát szereztem a Dunaújvárosi főiskolán 2011 nyarán.';
 var a3EN = 'One of my self improvement courses was about college learning. I graduated with a degree in Engineering Management at College of Dunaújváros in the summer of 2011.';
 var q4HU = 'Milyen szinten állsz az angollal?';
