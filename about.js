@@ -398,3 +398,13 @@ document.getElementById('i_linkedin').innerHTML = linkedinEN;
 document.getElementById('i_facebook').innerHTML = facebookEN;
 document.getElementById('i_email').innerHTML = emailEN;
 document.getElementById('i_mobile').innerHTML = mobileEN;
+
+$(document).ready(function () {
+  $(document).click(function (event) {
+      var clickover = $(event.target);
+      var _opened = $("#navbarNavAltMarkup").hasClass("navbar-collapse collapse show");
+      if (_opened === true && !clickover.hasClass("navbar-toggler")) {
+          $("#openCloseBtn").click();
+      }
+  });
+});

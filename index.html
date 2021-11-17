@@ -20,37 +20,38 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body>
 
-      <nav class="navbar fixed-top navbar-never-expand navbar-light">
-        <div class="fluid-container">
-          <button class="navbar-toggler menu_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav nav_link_background">
-              <a class="nav-link" href="#"><button onclick="languageChangeEN()"><img src="assets/UK48.png" alt="UK Kingdom Flag"></button><button onclick="languageChangeHU()"><img src="assets/Hun48.png" alt="HUN Flag"></button></a>
-              <a class="nav-link" href="#about" id="btn_about">About Me</a>
-              <a class="nav-link" href="#faq" id="btn_faq">Question and Answers</a>
-              <a class="nav-link" href="#techno" id="btn_techno">The technologies I use</a>
-              <a class="nav-link" href="#portfolio_project" id="btn_portfolio_project">Portfolio Project</a>
-              <a class="nav-link" href="#swing_project" id="btn_swing_project">Desktop Project</a>
-              <a class="nav-link" href="#spring_project" id="btn_spring_project">Spring Boot Project</a>
-              <a class="nav-link" href="#contact" id="btn_contact">Contacts</a>
-            </div>
+    <nav class="navbar fixed-top navbar-never-expand navbar-light">
+      <div class="fluid-container">
+        <button id="openCloseBtn" class="navbar-toggler menu_button" type="button" role="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav nav_link_background">
+            <a class="nav-link" href="#"><button onclick="languageChangeEN()"><img src="assets/UK48.png" alt="UK Kingdom Flag"></button><button onclick="languageChangeHU()"><img src="assets/Hun48.png" alt="HUN Flag"></button></a>
+            <a class="nav-link" href="#about" id="btn_about">About Me</a>
+            <a class="nav-link" href="#faq" id="btn_faq">Question and Answers</a>
+            <a class="nav-link" href="#techno" id="btn_techno">The technologies I use</a>
+            <a class="nav-link" href="#portfolio_project" id="btn_portfolio_project">Portfolio Project</a>
+            <a class="nav-link" href="#swing_project" id="btn_swing_project">Desktop Project</a>
+            <a class="nav-link" href="#spring_project" id="btn_spring_project">Spring Boot Project</a>
+            <a class="nav-link" href="#contact" id="btn_contact">Contacts</a>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-      <header class="cover">
-        <div class="main_title_wrapper">
-          <div class="main_title">
-            <h1 id="tx_name"></h1>
-            <span id="tx_profession"></span>
-          </div>
+    <header class="cover">
+      <div class="main_title_wrapper">
+        <div class="main_title">
+          <h1 id="tx_name"></h1>
+          <span id="tx_profession"></span>
         </div>
-      </header>
+      </div>
+    </header>
 
     <main>
 
