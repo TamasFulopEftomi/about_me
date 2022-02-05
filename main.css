@@ -50,7 +50,7 @@ a {
   color: #d2ba87;
 }
 
-#faq a:hover, #contact a:hover, #portfolio_project a:hover, #swing_project a:hover, #spring_project a:hover, #p_footer a:hover {
+#faq a:hover, #contact a:hover, #project_portfolio a:hover, #project_swing a:hover, #project_spring a:hover, #p_footer a:hover {
   color: rgb(0, 0, 0);
   transition: color .15s ease-in-out;
   text-decoration: underline;
@@ -250,7 +250,7 @@ button {
 
 /* ==== PROJECT STYLES ==== */
 
-#swing_project img, #spring_project img {
+#project_swing img, #project_spring img {
   border: .1rem solid black;
   border-radius: 0.25rem;
   margin-top: 1.5rem;
@@ -258,16 +258,16 @@ button {
   width: 100%;
 }
 
-#portfolio_project_1, #portfolio_project_2, #swing_project_1, #swing_project_3, #spring_project_1, #spring_project_3 {
+#project_portfolio_1, #project_portfolio_2, #project_swing_1, #project_swing_3, #project_spring_1, #project_spring_3 {
   text-align: justify;
 }
 
-#portfolio_porject_caption, #swing_project_caption, #spring_project_caption {
+#project_portfolio_caption, #project_swing_caption, #project_spring_caption {
   font-family: Mulish, sans-serif;
   font-size: .8rem;
 }
 
-#portfolio_project2, #swing_project_3, #spring_project_3 {
+#project_portfolio_2, #project_swing_3, #project_spring_3 {
   margin-top: 1.5rem;
 }
 
@@ -281,14 +281,14 @@ button {
 
 @media (min-width: 992px) {
   
-  #swing_project img, #spring_project img {
+  #project_swing img, #project_spring img {
     width: 90%;
   }
 }
 
 @media (min-width: 1200px) {
 
-  #swing_project img, #spring_project img {
+  #project_swing img, #project_spring img {
     width: 80%;
   }
 }
