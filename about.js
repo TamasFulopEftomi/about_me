@@ -1,21 +1,39 @@
+let en, hu;
 
-import en from '/lang_EN.json' assert { type: 'json' };
-import hu from '/lang_HU.json' assert { type: 'json' };
+loadLanguages();
 
-var lang;
+function loadLanguages() {
+fetch('lang_EN.json')
+  .then(response => response.json())
+  .then(data => {
+    en = data;
+    if (document.getElementById('lang_EN').innerHTML) {
+      language(en);
+    }
+  })
+  .catch(error => console.error('Error loading JSON:', error));
+
+fetch('lang_HU.json')
+  .then(response => response.json())
+  .then(data => {
+    hu = data;
+  })
+  .catch(error => console.error('Error loading JSON:', error));
+  console.log('Beolvasva.')
+}
 
 document.getElementById('lang_EN').addEventListener("click", english);
 document.getElementById('lang_HU').addEventListener("click", hungarian);
 
 function english() {
+    console.log("ENGLISH");
     language(en);
 }
 
 function hungarian() {
-    language(hu);
+  console.log("HUNGARIAN");
+  language(hu);
 }
-
-language(en);   /*default language*/
 
 function language(lang) {
     document.getElementById('tx_title').innerHTML = lang.title;
