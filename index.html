@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title id="tx_title">Tamas Fulop Software Developer</title>
+    <title id="tx_title" data-i18n="title">Tamas Fulop Software Developer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -22,17 +22,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav nav_link_background">
-            <a class="nav-link" href="#">
+            <div class="nav-link" href="#">
               <button id="lang_EN"><img src="assets/UK_flag.png" alt="UK Flag"></button>
               <button id="lang_HU"><img src="assets/HU_flag.png" alt="HU Flag"></button>
-            </a>
-            <!--a class="nav-link" href="#about" id="btn_about">About Me</a>
-            <a class="nav-link" href="#faq" id="btn_faq">Question and Answers</a>
-            <a class="nav-link" href="#techno" id="btn_techno">The technologies I use</a>
-            <a class="nav-link" href="#project_portfolio" id="btn_project_portfolio">Portfolio Project</a>
-            <a class="nav-link" href="#project_swing" id="btn_project_swing">Desktop Project</a>
-            <a class="nav-link" href="#project_spring" id="btn_project_spring">Spring Boot Project</a>
-            <a class="nav-link" href="#contact" id="btn_contact">Contacts</a-->
+            </div>
+            <a class="nav-link" href="#about" id="btn_about" data-i18n="about">About Me</a>
+            <a class="nav-link" href="#faq" id="btn_faq" data-i18n="faq">Question and Answers</a>
+            <a class="nav-link" href="#techno" id="btn_techno" data-i18n="techno">The technologies I use</a>
+            <a class="nav-link" href="#project_portfolio" id="btn_project_portfolio" data-i18n="project.portfolio">Portfolio Project</a>
+            <a class="nav-link" href="#project_swing" id="btn_project_swing" data-i18n="project.swing">Desktop Project</a>
+            <a class="nav-link" href="#project_spring" id="btn_project_spring" data-i18n="project.spring">Spring Boot Project</a>
+            <a class="nav-link" href="#contact" id="btn_contact" data-i18n="contact">Contacts</a>
           </div>
         </div>
       </div>
@@ -41,19 +41,19 @@
     <header class="cover">
       <div class="main_title_wrapper">
         <div class="main_title">
-          <h1 id="tx_name">Tamas Fulop</h1>
-          <span id="tx_profession">Software developer</span>
+          <h1 id="tx_name" data-i18n="name">Tamas Fulop</h1>
+          <span id="tx_profession" data-i18n="profession">Software developer</span>
         </div>
       </div>
     </header>
 
     <main>
 
-      <!-- section class="fluid-container" id="about">
-        <h2 id="h_about">About Me</h2>
+      <section class="fluid-container" id="about">
+        <h2 id="h_about" data-i18n="about">About Me</h2>
         <div class="row justify-content-md-center">
           <div class="col-md-8">
-            <p id="about_me"></p>
+            <p id="about_me" data-i18n="about_me"></p>
           </div>
         </div>
       </section>
@@ -64,23 +64,23 @@
       </div>
 
       <section class="fluid-container" id="faq">
-        <h2 id="h_faq"></h2>
+        <h2 id="h_faq" data-i18n="faq"></h2>
         <div class="row justify-content-center">
           <div class="col-md-10">
             <div class="row">
               <div class="col-md-6 question-group">
-                <p class="question" id="tx_q1"></p>
-                <p class="answer" id="tx_a1"></p>
-                <p class="question" id="tx_q2"></p>
-                <p class="answer" id="tx_a2"></p>
+                <p class="question" id="tx_q1" data-i18n="q1"></p>
+                <p class="answer" id="tx_a1" data-i18n="a1"></p>
+                <p class="question" id="tx_q2" data-i18n="q2"></p>
+                <p class="answer" id="tx_a2" data-i18n="a2"></p>
               </div>
               <div class="col-md-6 question-group">
-                <p class="question" id="tx_q3"></p>
-                <p class="answer" id="tx_a3"></p>
-                <p class="question" id="tx_q4"></p>
-                <p class="answer" id="tx_a4"></p>
-                <p class="question" id="tx_q5"></p>
-                <p class="answer" id="tx_a5"></p>
+                <p class="question" id="tx_q3" data-i18n="q3"></p>
+                <p class="answer" id="tx_a3" data-i18n="a3"></p>
+                <p class="question" id="tx_q4" data-i18n="q4"></p>
+                <p class="answer" id="tx_a4" data-i18n="a4"></p>
+                <p class="question" id="tx_q5" data-i18n="q5"></p>
+                <p class="answer" id="tx_a5" data-i18n="a5"></p>
               </div>
             </div>
           </div>
@@ -93,10 +93,10 @@
       </div>
 
       <section class="fluid-container" id="techno">
-        <h2 id="h_techno">Technologies used</h2>
+        <h2 id="h_techno" data-i18n="techno">Technologies used</h2>
         <div class="row">
           <div class="col-md-3 blurb">
-            <h3 id="techno_development">Development</h3>
+            <h3 id="techno_development" data-i18n="techno_development">Development</h3>
             <i class="fas fa-desktop fa-7x"></i>
             <div class="techno_list">
               <li>Java 8</li>
@@ -107,7 +107,7 @@
             </div>
           </div>
           <div class="col-md-3 blurb">
-            <h3 id="techno_other">Other Technogies</h3>
+            <h3 id="techno_other" data-i18n="techno_other">Other Technogies</h3>
             <i class="fas fa-database fa-7x"></i>
             <div class="techno_list">
               <li>MySQL</li>
@@ -119,7 +119,7 @@
             </div>
           </div>
           <div class="col-md-3 blurb">
-            <h3 id="techno_framework">Framework</h3>
+            <h3 id="techno_framework" data-i18n="techno_framework">Framework</h3>
             <i class="fas fa-server fa-7x"></i>
             <div class="techno_list">
               <li>Spring Boot</li>
@@ -130,7 +130,7 @@
             </div>
           </div>
           <div class="col-md-3 blurb">
-            <h3 id="techno_development_tools">Development Tools</h3>
+            <h3 id="techno_development_tools" data-i18n="techno_development_tools">Development Tools</h3>
             <i class="fas fa-keyboard fa-7x"></i>
             <div class="techno_list">
               <li>IntelliJ Idea</li>
@@ -150,13 +150,13 @@
       </div>
 
       <section class="fluid-container" id="project_portfolio">
-        <h2 id="h_project_portfolio">Webpage Project</h2>
-        <h3 id="h2_project_portfolio">Portfolio Presentation Page</h3>
+        <h2 id="h_project_portfolio" data-i18n="project.portfolio">Webpage Project</h2>
+        <h3 id="h2_project_portfolio" data-i18n="project.portfolio_h2">Portfolio Presentation Page</h3>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <div id="project_portfolio_1"></div>
+            <div id="project_portfolio_1" data-i18n="project.portfolio_1"></div>
            
-            <div id="project_portfolio_2"></div>
+            <div id="project_portfolio_2" data-i18n="project.portfolio_2"></div>
           </div>
         </div>
       </section>
@@ -168,31 +168,31 @@
 
 
       <section class="fluid-container" id="project_swing">
-        <h2 id="h_project_swing">Desktop Project</h2>
-        <h3 id="h2_project_swing">Steel Slitting Stand Dimension Calculator</h3>
+        <h2 id="h_project_swing" data-i18n="swing">Desktop Project</h2>
+        <h3 id="h2_project_swing" data-i18n="project.swing_h2">Steel Slitting Stand Dimension Calculator</h3>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <div id="project_swing_1"></div>
+            <div id="project_swing_1" data-i18n="project.swing_1"></div>
 
             <div class="collapse" id="navbarToggleExternalContent">
               <div class="bg-dark p-4 text-start">
-                <span class="text-muted" id="project_swing_2"></span>
+                <span class="text-muted" id="project_swing_2" data-i18n="project.swing_2"></span>
               </div>
             </div>
             <nav class="navbar navbar-dark bg-dark collapse_link_background">
               <div class="container-fluid">
                 <button class="navbar-toggler collapse_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span id="project_swing_button"></span>
+                  <span id="project_swing_button" data-i18n="project.swing_button"></span>
                 </button>
               </div>
             </nav>
 
-            <div id="project_swing_2"></div>
+            <div id="project_swing_2" data-i18n="swing_2"></div>
             <div>
               <img src="assets/ssc_demo.png" alt="Steel Slitting Calculator">
             </div>
-            <div id="project_swing_caption"></div>
-            <div id="project_swing_3"></div>
+            <div id="project_swing_caption" data-i18n="project.swing_h2"></div>
+            <div id="project_swing_3" data-i18n="project.swing_3"></div>
           </div>
         </div>
       </section>
@@ -203,21 +203,21 @@
       </div>
 
       <section class="fluid-container" id="project_spring">
-        <h2 id="h_project_spring">Spring Boot Web Project</h2>
-        <h3 id="h2_project_spring">Truck Cargo Planner</h3>
+        <h2 id="h_project_spring" data-i18n="project.spring">Spring Boot Web Project</h2>
+        <h3 id="h2_project_spring" data-i18n="project.spring_h2">Truck Cargo Planner</h3>
         <div class="row justify-content-center">
           <div class="col-md-8">
-            <div id="project_spring_1"></div>
+            <div id="project_spring_1" data-i18n="project.spring_1"></div>
 
             <div class="collapse" id="navbarToggleExternalContent">
               <div class="bg-dark p-4 text-start">
-                <span class="text-muted" id="project_spring_2"></span>
+                <span class="text-muted" id="project_spring_2" data-i18n="project.spring_2"></span>
               </div>
             </div>
             <nav class="navbar navbar-dark bg-dark collapse_link_background">
               <div class="container-fluid">
                 <button class="navbar-toggler collapse_button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span id="project_spring_button"></span>
+                  <span id="project_spring_button" data-i18n="project.spring_button"></span>
                 </button>
               </div>
             </nav>
@@ -226,8 +226,8 @@
             <div>
               <img src="assets/tcp_demo.jpg" alt="Truck Cargo Planner">
             </div>
-            <div id="project_spring_caption"></div>
-            <div id="project_spring_3"></div>
+            <div id="project_spring_caption" data-i18n="project.spring_h2"></div>
+            <div id="project_spring_3" data-i18n="project.spring_3"></div>
           </div>
         </div>
       </section>
@@ -238,33 +238,33 @@
       </div>
 
       <section class="fluid-container" id="contact">
-        <h2 id="h_contact"></h2>
+        <h2 id="h_contact" data-i18n="contact"></h2>
         <div class="row justify-content-center">
           <div class="col-auto">
-            <div id="p_contact">Contact</div>
+            <div id="p_contact" data-i18n="contact_text">Contact</div>
           </div>
           <div id="icons">
-            <li id="i_github"></li>
-            <li id="i_linkedin"></li>
-            <li id="i_facebook"></li>
-            <li id="i_email"></li>
-            <li id="i_mobile"></li>
+            <li id="i_github" data-i18n="github"></li>
+            <li id="i_linkedin" data-i18n="linkedin"></li>
+            <li id="i_facebook" data-i18n="facebook"></li>
+            <li id="i_email" data-i18n="email"></li>
+            <li id="i_mobile" data-i18n="mobile"></li>
           </div>
         </div>
-      </section-->
+      </section>
 
     </main>
     
-    <!--footer>
+    <footer>
       <div class="footer_wrapper">
-        <p id="p_footer"></p><span></span>
+        <p id="p_footer" data-i18n="footer_text"></p><span></span>
     </div>
     </footer>
 
     <div class="gap_wrapper">
       <div id="last_gap">
       </div>
-    </div-->
+    </div>
 
     <script src="about.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>

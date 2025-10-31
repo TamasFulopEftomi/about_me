@@ -112,7 +112,7 @@ button {
 /* ==== HEADER STYLES ==== */
 
 .cover {
-  background: url('assets/coder_cover.jpg') no-repeat 40% center/cover;
+  background: url('assets/coder_cover.jpg') no-repeat 40% center/cover fixed;
   display: table;
   text-align: center;
   height: 100vh;
