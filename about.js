@@ -32,9 +32,10 @@ loadLang(currentLang);
 
 document.addEventListener('click', function (event) {
   const navbar = document.getElementById('navbarNavAltMarkup');
+  const toggleButton = document.getElementById('openCloseBtn');
 
   if (navbar.classList.contains('show') &&
-      !event.target.closest('.navbar-toggler')) {
-    document.getElementById('openCloseBtn').click();
+      !toggleButton.contains(event.target)) {
+    bootstrap.Collapse.getInstance(navbar)?.hide();
   }
 });
