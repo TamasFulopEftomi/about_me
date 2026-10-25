@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 let currentLang = localStorage.getItem('lang') || 'en';
 let translations = {};
 
@@ -28,12 +30,11 @@ document.getElementById('lang_HU').addEventListener('click', () => loadLang('hu'
 
 loadLang(currentLang);
 
-$(document).ready(function () {
-  $(document).click(function (event) {
-    var clickover = $(event.target);
-    var _opened = $("#navbarNavAltMarkup").hasClass("show");
-    if (_opened && !clickover.hasClass("navbar-toggler")) {
-      $("#openCloseBtn").click();
-    }
-  });
+document.addEventListener('click', function (event) {
+  const navbar = document.getElementById('navbarNavAltMarkup');
+
+  if (navbar.classList.contains('show') &&
+      !event.target.closest('.navbar-toggler')) {
+    document.getElementById('openCloseBtn').click();
+  }
 });

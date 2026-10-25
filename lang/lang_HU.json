@@ -2,6 +2,7 @@
 "title": "Fülöp Tamás Szoftverfejlesztő",
 "name": "Fülöp Tamás",
 "profession": "Szoftverfejlesztő",
+"home": "Nyitólap",
 "about": "Magamról",
 "faq": "Kérdések és Válaszok",
 "techno": "Ismert Technológiák",
@@ -40,11 +41,10 @@
 "techno_other": "Egyéb Technológiák",
 "techno_framework": "Keretrendszer",
 "techno_development_tools": "Fejlesztő Eszközök",
-"contact_text": "Szoftverfejlesztői képességemet a <a href=\"https://github.com/TamasFulopEftomi\" target=\"_blank\" title=\"Tekintsd meg Github repository-mat.\"><strong>Github</strong></a> repository-mban található kisebb-nagyobb projekteken keresztül mutatom be.<br>Önéletrajzomat megnézheted a <a href=\"https://www.linkedin.com/in/tamasfulopeftomi/\" target=\"_blank\" title=\"Látogass meg a LinkedIn-en.\"><strong>LinkedIn</strong></a>-en.<br>A <a href=\"https://www.facebook.com/tamas.fulop.eftomi\" target=\"_blank\" title=\"Látogass meg a Facebook-on.\"><strong>Facebook</strong></a> profilomon keresztül többet megtudhatsz rólam és hobbijaimról.<br>Ha a fentiekkel kapcsolatban bármi kérdésed merül fel, keress az alábbi elérhetőségek valamelyikén!<br>Telefon: <a href=\"tel:+36302512561\">+36 30 251 huszonöt hatvanegy</a><br>Email: <a href=\"mailto:tamas.fulop@efomi.com\">tamas (pont) fulop (pont) eftomi (kukac) gmail (pont) com</a>",
+"contact_text": "Szoftverfejlesztői képességemet a <a href=\"https://github.com/TamasFulopEftomi\" target=\"_blank\" title=\"Tekintsd meg Github repository-mat.\"><strong>Github</strong></a> repository-mban található kisebb-nagyobb projekteken keresztül mutatom be.<br>Önéletrajzomat megnézheted a <a href=\"https://www.linkedin.com/in/tamasfulopeftomi/\" target=\"_blank\" title=\"Látogass meg a LinkedIn-en.\"><strong>LinkedIn</strong></a>-en.<br>Ha a fentiekkel kapcsolatban bármi kérdésed merül fel, keress az alábbi elérhetőségek valamelyikén!<br>Telefon: <a href=\"tel:+36302512561\">+36 30 251 huszonöt hatvanegy</a><br>Email: <a href=\"mailto:tamas.fulop@efomi.com\">tamas (pont) fulop (pont) eftomi (kukac) gmail (pont) com</a>",
 "footer_text": "<small>©2022 <i class=\"far fa-eye\"></i> Fülöp Tamás <i class=\"far fa-eye\"></i><a href=\"https://www.eftomi.com\" target=\"blank\"> www.eftomi.com</a></small>",
 "github": "<a href=\"https://github.com/TamasFulopEftomi\" target=\"_blank\" title=\"Tekintsd meg Github repository-mat.\"><i class=\"fab fa-2x fa-github trans\"></i></a>",
 "linkedin": "<a href=\"https://www.linkedin.com/in/tamasfulopeftomi/\" target=\"_blank\" title=\"Látogass meg a LinkedIn-en.\"><i class=\"fab fa-2x fa-linkedin-in trans\"></i></a>",
-"facebook": "<a href=\"https://www.facebook.com/tamas.fulop.eftomi\" target=\"_blank\" title=\"Látogass meg a Facebook-on.\"><i class=\"fab fa-2x fa-facebook trans\"></i></a>",
 "email": "<a href=\"mailto:tamas.fulop.eftomi@gmail.com\" target=\"blank\" title=\"Küldj email-t: tamas.fulop.eftomi@gmail.com\"><i class=\"far fa-2x fa-envelope trans\"></i></a>",
 "mobile": "<a href=\"tel:+36302512561\" target=\"blank\" title=\"Hívj fel: +36 30 251 2561\"><i class=\"fas fa-2x fa-mobile-alt trans\"></i></a>"
 }
